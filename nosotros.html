@@ -24,6 +24,8 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/menu-mobile.css">
     <script src="aos/aos.js"></script>
     <style>
       .swiper {
@@ -162,6 +164,7 @@
       });
     </script>
     <!-- Fin de Codigo de adds telefono   -->
+    <link rel="stylesheet" href="css/general.css">
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
@@ -181,46 +184,111 @@
         style="display: none"
         src="https://www.facebook.com/tr?id=489645959612968&ev=PageView&noscript=1"
     /></noscript>
-    <header>
-      <div class="item_header">
-        <p><a href="tel:6012731655" target="_blank">Agenda tu cita</a></p>
-        <p><a href="tel:6012731655" target="_blank">Teléfono: 6012731655</a></p>
-      </div>
-      <nav class="navegador">
-        <div class="menu-bar">
-          <input type="checkbox" id="btn-menu" />
-          <label for="btn-menu" class="lbl-menu">
-            <span id="spn1"></span>
-            <span id="spn2"></span>
-            <span id="spn3"></span>
-          </label>
-        </div>
-        <div class="logo_nav">
-          <a href="index.html"
-            ><img src="imagenes/logo_elizabeth.png" alt="" class="logo_tunjano"
-          /></a>
-        </div>
-        <ul class="menu">
-          <li><a href="index.html" class="menu_links">Inicio</a></li>
-          <li><a href="nosotros.html" class="menu_links">Nosotros</a></li>
-          <li><a href="promociones.html" class="menu_links">Promociones</a></li>
-          <li>
-            <a
-              href="https://api.whatsapp.com/send?phone=573204966930"
-              class="urgencias menu_links"
-              target="_blank"
-              >Urgencias
+    <header>  
+      <div id="logo-celular">
+        <a href="#portada">
+            <div class="img-logo">
+                <img src="imagenes/logo_elizabeth.png" alt="Odontología Elizabeth Baquero">
+            </div>
+        </a>                
+    </div>
+    <button id="hamburger-btn">☰</button>
+    <div class="menu">
+        <nav class="hidden" id="menu">
+            <div class="logo" id="logo">
+                <a href="#portada">
+                    <div class="img-logo">
+                        <img src="imagenes/logo_elizabeth.png" alt="Odontología Elizabeth Baquero">
+                    </div>
+                </a>                
+            </div>
+            <div class="logo" id="logo-menu-cel">
+                    <div class="img-logo">
+                        <img src="imagenes/logo_elizabeth.png" alt="Odontología Elizabeth Baquero">
+                    </div>
+                </a>                
+            </div>
+            <div class="enlaces">
+  
+                <a href="index.html" class="scroll">
+                    <div class="boton-menu">
+                        <p>Inicio</p>
+                    </div>
+                </a>
+                           
+                <a href="index.html#servicios" class="scroll">
+                    <div class="boton-menu">
+                        <p>Tratamientos</p>
+                    </div>                    
+                </a>  
+                    
+              <a href="https://api.whatsapp.com/send?phone=573204966930" target="_blank">
+                <div class="boton-menu">
+                    <p style="color: gold;">URGENCIAS</p>
+                </div>                    
+              </a>                                                                                                 
+            </div> 
+  
+            <div class="contenedor-mas-boton">
+              <a class="scroll" id="mas-boton">
+                <div class="boton-menu">
+                  Más <div class="fas fa-chevron-down"></div>                
+                </div>       
+              </a>
+            </div>
+            
+                      
+            <div class="sub-menu" id="sub-menu" >                 
+                <div class="desplegable-lista" style="display: none;">
+                  <div class="contenedor-sub-menu">
+                    <a href="nosotros.html">
+                      <div class="boton-menu">
+                          <p>Nosotros</p>
+                      </div>                    
+                    </a>
+                    <a href="promociones.html">
+                        <div class="boton-menu">
+                            <p>Promociones</p>
+                        </div>                    
+                    </a>
+                    <a href="turismo.html">
+                        <div class="boton-menu">
+                            <p>Turismo</p>
+                        </div>                    
+                    </a> 
+                    <a href="#ubicacion" id="menu-ubicacion">
+                      <div class="boton-menu">
+                          <p>Ubicación</p>
+                      </div>                    
+                    </a>  
+                  </div>                  
+                </div>                  
+            </div>
+  
+            <div class="boton-contacto">
+                <a href="#section_formulario" id="boton-menu-contacto" class="scroll">
+                    <div class="contendor-boton-contacto">
+                      <div class="parrafo-contacto">
+                        <p>Contacto</p>  
+                      </div>                          
+                    </div>  
+                </a> 
+            </div>  
+  
             </a>
-          </li>
-          <li>
-            <a href="index.html#servicios" class="menu_links">Tratamientos</a>
-          </li>
-          <li><a href="turismo.html" class="menu_links">Turismo</a></li>
-          <li><a href="#ubicacion" class="menu_links">Ubicación</a></li>
-          <li><a href="#contactodos" class="menu_links">Contacto</a></li>
-        </ul>
-      </nav>
+        </nav> 
+    </div>
     </header>
+    <div id="anuncio-header">
+      <div class="contenedor-aununcio-header">
+        <div class="item">
+          <a href="#pago">Agenda tu cita</a>
+        </div>
+        <div class="item">
+          <a href="tel:6012731655" target="_blank">Teléfono: 6012731655</a>
+        </div>        
+      </div>
+    </div>
 
     <section class="fondo_nosotros">
       <img src="imagenes/nosotros/fondo_uno.png" alt="" />
@@ -746,6 +814,15 @@
         </div>
       </div>
     </div>
+    <div>
+      <button id="backToTop" title="Volver al inicio" style="display: block;"><i class="fas fa-chevron-up"></i></button>
+    </div>
+  
+    <div>
+      <a  target="_blank" class="whatsapp-button" href="https://api.whatsapp.com/send?phone=573204966930">
+          <img src="imagenes/icons/urgencias-2.png" alt="WhatsApp" title="Urgencias">
+      </a>
+    </div>
     <footer>
       <div class="item_footer">
         <h4 class="list__button--click">MENÚ</h4>
@@ -836,6 +913,7 @@
     <script src="js/card.js"></script>
     <script src="js/nosotros.js"></script>
     <script src="js/modales.js"></script>
+    <script src="js/menu.js"></script>
     <script>
       AOS.init();
     </script>

@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-body {
-    background-color: #F2F4F5;
-
-}
 
 .portada {
     position: relative;
@@ -44,9 +40,6 @@ body {
     /* Mantiene la proporción de la imagen */
 }
 
-.hidden {
-    display: none;
-}
 
 .texto-portada {
     position: absolute;

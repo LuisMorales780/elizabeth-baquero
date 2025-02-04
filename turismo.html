@@ -10,13 +10,15 @@
   <link rel="stylesheet" href="css/styles.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="aos/aos.css" />
   <link rel="stylesheet" href="css/turismo.css">
-  <script src="aos/aos.js"></script>
-  <!-- Codigo de analitycs  -->
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/menu-mobile.css">
+  <link rel="stylesheet" href="css/general.css">
+
+  <!-- Código JS encapsulado -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-CT7GPSNPXD"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -24,12 +26,8 @@
       dataLayer.push(arguments);
     }
     gtag("js", new Date());
-
     gtag("config", "G-CT7GPSNPXD");
-  </script>
-  <!-- Fin de Codigo de analitycs  -->
-  <!-- Meta Pixel Code -->
-  <script>
+
     !(function (f, b, e, v, n, t, s) {
       if (f.fbq) return;
       n = f.fbq = function () {
@@ -47,20 +45,10 @@
       t.src = v;
       s = b.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t, s);
-    })(
-      window,
-      document,
-      "script",
-      "https://connect.facebook.net/en_US/fbevents.js"
-    );
+    })(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
     fbq("init", "489645959612968");
     fbq("track", "PageView");
-  </script>
-  <noscript><img height="1" width="1" style="display: none"
-      src="https://www.facebook.com/tr?id=489645959612968&ev=PageView&noscript=1" /></noscript>
-  <!-- End Meta Pixel Code -->
-  <!-- Codigo de adds whatsapp   -->
-  <script>
+
     function gtag_report_conversion(url) {
       var callback = function () {
         if (typeof url != "undefined") {
@@ -73,1191 +61,1229 @@
       });
       return false;
     }
-  </script>
-  <script>
+
     gtag("event", "conversion", {
       send_to: "AW-10851115297/SDIFCKrtzqADEKHCm7Yo",
     });
-  </script>
-  <!-- Fin de Codigo de adds whatsapp   -->
-  <!-- Codigo de adds telefono   -->
-  <script>
+
     gtag("config", "AW-10851115297/SxFxCLbek6ADEKHCm7Yo", {
       phone_conversion_number: "6012371655",
     });
+
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-THLNK4QG");
   </script>
-  <style>
-    .swiper {
-      width: 90%;
-      height: 100%;
-      margin: 40px 0px 30px 0px;
-    }
 
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe
+      src="https://www.googletagmanager.com/ns.html?id=GTM-THLNK4QG"
+      height="0"
+      width="0"
+      style="display: none; visibility: hidden">
+    </iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
-      /* Center slide text vertically */
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-    }
-
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .swiper-pagination {
-      position: relative;
-      margin-top: 15px;
-    }
-
-    .swiper-pagination .swiper-pagination-bullet {
-      height: 7px;
-      width: 27px;
-      background-color: #002c89;
-      border-radius: 20px;
-    }
-  </style>
-  <!-- Fin de Codigo de adds telefono   -->
-   <!-- Google Tag Manager -->
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-THLNK4QG");
-    </script>
-    <!-- End Google Tag Manager -->
+  <noscript>
+    <img height="1" width="1" style="display: none" src="https://www.facebook.com/tr?id=489645959612968&ev=PageView&noscript=1" />
+  </noscript>
 </head>
 
+
+
 <body>
-   <!-- Google Tag Manager (noscript) -->
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-THLNK4QG"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <noscript
-      ><img
-        height="1"
-        width="1"
-        style="display: none"
-        src="https://www.facebook.com/tr?id=489645959612968&ev=PageView&noscript=1"
-    /></noscript>
-  <header>
-    <div class="item_header">
-      <p><a href="tel:6012731655" target="_blank">Agenda tu cita</a></p>
-      <p><a href="tel:6012731655" target="_blank">Teléfono: 6012731655</a></p>
-    </div>
-    <nav class="navegador">
-      <div class="menu-bar">
-        <input type="checkbox" id="btn-menu" />
-        <label for="btn-menu" class="lbl-menu">
-          <span id="spn1"></span>
-          <span id="spn2"></span>
-          <span id="spn3"></span>
-        </label>
-      </div>
-      <div class="logo_nav">
-        <a href="index.html"><img src="imagenes/logo_elizabeth.png" alt="" class="logo_tunjano" /></a>
-      </div>
-      <ul class="menu">
-        <li><a href="index.html" class="menu_links">Inicio</a></li>
-        <li><a href="nosotros.html" class="menu_links">Nosotros</a></li>
-        <li><a href="promociones.html" class="menu_links">Promociones</a></li>
-        <li>
-          <a href="https://api.whatsapp.com/send?phone=573204966930" class="urgencias menu_links"
-            target="_blank">Urgencias
-          </a>
-        </li>
-        <li><a href="index.html#servicios" class="menu_links">Tratamientos</a></li>
-        <li><a href="turismo.html" class="menu_links">Turismo</a></li>
-        <li><a href="#ubicacion" class="menu_links">Ubicación</a></li>
-        <li><a href="#contactodos" class="menu_links">Contacto</a></li>
-      </ul>
-    </nav>
+  
+  <header>  
+    <div id="logo-celular">
+      <a href="#portada">
+          <div class="img-logo">
+              <img src="imagenes/logo_elizabeth.png" alt="Odontología Elizabeth Baquero">
+          </div>
+      </a>                
+  </div>
+  <button id="hamburger-btn">☰</button>
+  <div class="menu">
+      <nav class="hidden" id="menu">
+          <div class="logo" id="logo">
+              <a href="index.html">
+                  <div class="img-logo">
+                      <img src="imagenes/logo_elizabeth.png" alt="Odontología Elizabeth Baquero">
+                  </div>
+              </a>                
+          </div>
+          <div class="logo" id="logo-menu-cel">
+                  <div class="img-logo">
+                      <img src="imagenes/logo_elizabeth.png" alt="Odontología Elizabeth Baquero">
+                  </div>
+              </a>                
+          </div>
+          <div class="enlaces">
+
+              <a href="index.html" class="scroll">
+                  <div class="boton-menu">
+                      <p>Inicio</p>
+                  </div>
+              </a>
+                         
+              <a href="index.html#servicios">
+                  <div class="boton-menu">
+                      <p>Tratamientos</p>
+                  </div>                    
+              </a>  
+                  
+            <a href="https://api.whatsapp.com/send?phone=573204966930" target="_blank">
+              <div class="boton-menu">
+                  <p style="color: gold;">URGENCIAS</p>
+              </div>                    
+            </a>                                                                                                 
+          </div> 
+
+          <div class="contenedor-mas-boton">
+            <a class="scroll" id="mas-boton">
+              <div class="boton-menu">
+                Más <div class="fas fa-chevron-down"></div>                
+              </div>       
+            </a>
+          </div>
+          
+                    
+          <div class="sub-menu" id="sub-menu" >                 
+              <div class="desplegable-lista" style="display: none;">
+                <div class="contenedor-sub-menu">
+                  <a href="nosotros.html">
+                    <div class="boton-menu">
+                        <p>Nosotros</p>
+                    </div>                    
+                  </a>
+                  <a href="promociones.html">
+                      <div class="boton-menu">
+                          <p>Promociones</p>
+                      </div>                    
+                  </a>
+                  <a href="turismo.html">
+                      <div class="boton-menu">
+                          <p>Turismo</p>
+                      </div>                    
+                  </a> 
+                  <a href="index.html#ubicacion" id="menu-ubicacion">
+                    <div class="boton-menu">
+                        <p>Ubicación</p>
+                    </div>                    
+                  </a>  
+                </div>                  
+              </div>                  
+          </div>
+
+          <div class="boton-contacto">
+              <a href="#section_formulario" id="boton-menu-contacto" class="scroll">
+                  <div class="contendor-boton-contacto">
+                    <div class="parrafo-contacto">
+                      <p>Contacto</p>  
+                    </div>                          
+                  </div>  
+              </a> 
+          </div>  
+      </nav> 
+  </div>
   </header>
-  <!-- inicio -->
-  <div class="portada">
-    <img src="imagenes/turismo/portada1.jpeg" alt="" class="portadadesktop">
-    <img src="imagenes/turismo/portada2.jpg" alt="" class="portadaMobil">
-    <!-- inicio 
-        <div class="texto-portada">
-            <button class="btn-info">
-                Mas información  <svg  xmlns="http://www.w3.org/2000/svg"  width="24px"  height="24px"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-plane-tilt"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14.5 6.5l3 -2.9a2.05 2.05 0 0 1 2.9 2.9l-2.9 3l2.5 7.5l-2.5 2.55l-3.5 -6.55l-3 3v3l-2 2l-1.5 -4.5l-4.5 -1.5l2 -2h3l3 -3l-6.5 -3.5l2.5 -2.5l7.5 2.5z" /></svg>
-            </button>
-        </div>-->
 
-  </div>
-  <!-- informacion -->
-  <div class="full-width-section">
-    <div class="section-content" id="sectionContent">
-      <h1>Profesionalismo</h1>
-      <p id="contentShort">
-        Contamos con especialistas en distintas áreas como (endodoncia, rehabilitación, cirugía oral, periodoncia,
-        ortodoncia, estética dental, odontopediatría e implantología), con amplia experiencia profesional y en constante
-        actualización para poder brindar tratamientos innovadores y de la más alta calidad.
-      </p>
-      <br>
-      <p id="contentFull" class="hidden">
-        Contamos con una vasta experiencia de 27 años en el campo de la odontología,
-        desde nuestro inicio en 1997, perfeccionando sonrisas y brindando soluciones
-        efectivas para una amplia gama de necesidades dentales. Nuestra clínica se dedica
-        a ofrecer todos los servicios de la odontología moderna, garantizando un cuidado integral
-        y personalizado. Disponemos de un equipo de especialistas altamente calificados en diversas
-        áreas de la odontología, listos para atender y resolver cualquier inquietud o requerimiento
-        que puedas tener. Con un compromiso constante con la excelencia y la innovación, nos enorgullece
-        proporcionar tratamientos de calidad y resultados sobresalientes para cada uno de nuestros pacientes.
-      </p>
-
-      <h1>Experiencia</h1>
-      <p>
-        Contamos con una amplia experiencia laboral de 27 años. Desde 1997 perfeccionado sonrisas Ofrecemos todos los
-        servicios de la odontología moderna contamos con todos los especialistas en las distintas áreas como
-        (endodoncia,
-        rehabilitación, cirugía oral, periodoncia, ortodoncia, estética dental, odontopediatría e implantología),
-      </p>
-
-      <!-- informacion 
-          <button id="toggleButton" class="toggle-button">Leer más</button>-->
+  <div id="anuncio-header">
+    <div class="contenedor-aununcio-header">
+      <div class="item">
+        <a href="#pago">Agenda tu cita</a>
+      </div>
+      <div class="item">
+        <a href="tel:6012731655" target="_blank">Teléfono: 6012731655</a>
+      </div>        
     </div>
-    <i class="fas fa-briefcase ajusteIcon"></i>
   </div>
 
-  <section class="section-profesionales-info">
-    <h3>Nuestros Profesionales</h3>
-    <div class="slider-doctores">
-      <div class="slider-doctores-info">
-        <div class="profesionales-info-doctor">
-          <p><strong>Ennya Lieseth Leonel Triana:</strong> Odontóloga, especialista en patología y Cirugía Bucal
-            implantología</p>
-        </div>
-        <div class="profesionales-info-doctor">
-          <p><strong>Elizabeth Baquero Beltrán:</strong> Odontóloga especialista en ortopedia funcional y Ortodoncia
-            especialista en diseño de sonrisa y rehabilitación</p>
-        </div>
-        <div class="profesionales-info-doctor">
-          <p><strong>Paula Andrea Fernández Baquero:</strong> Odontóloga, adelantado estudios de posgrado en
-            rehabilitación con diplomados estética dental, fotografía clínica y diseño de sonrisa</p>
-        </div>
-        <div class="profesionales-info-doctor">
-          <p><strong>Olga Lucia Calderón Ramos:</strong> Odontóloga general con diplomados en estética dental
-            rehabilitación oral</p>
-        </div>
+  <main>
+    <section>
+      <div class="portada">
+        <img src="imagenes/turismo/portada1.jpeg" alt="" class="portadadesktop">
+        <img src="imagenes/turismo/portada2.jpg" alt="" class="portadaMobil">
       </div>
-    </div>
-
-  </section>
-
-  <!-- Tratamientos -->
-  <section class="section-tratamientos">
-    <h2>Nuestros tratamientos Dentales</h2>
-    <div class="tratamientos-container">
-      <div class="tratamiento-card">
-        <img src="imagenes/turismo/tratamientos/ortodoncia.jpg" alt="Ortodoncia">
-        <h3>Ortodoncia</h3>
-      </div>
-      <div class="tratamiento-card">
-        <img src="imagenes/turismo/tratamientos/implates dentales.jpg" alt="Implantes dentales">
-        <h3>Implantes Dentales</h3>
-      </div>
-      <div class="tratamiento-card">
-        <img src="imagenes/turismo/tratamientos/endodoncia.jpg" alt="Endodoncia">
-        <h3>Endodoncia</h3>
-      </div>
-      <div class="tratamiento-card">
-        <img src="imagenes/turismo/tratamientos/blanqueamiento.jpg" alt="Blanqueamiento">
-        <h3>Blanqueamiento</h3>
-      </div>
-      <div class="tratamiento-card">
-        <img src="imagenes/turismo/tratamientos/periodoncia.jpg" alt="Periodoncia">
-        <h3>Periodoncia</h3>
-      </div>
-      <div class="tratamiento-card">
-        <img src="imagenes/turismo/tratamientos/cirugia.jpg" alt="extraccion">
-        <h3>Cirugía Oral</h3>
-      </div>
-      <div class="tratamiento-card">
-        <img src="imagenes/turismo/tratamientos/protesis.jpg" alt="protesis">
-        <h3>Prótesis Dentales</h3>
-      </div>
-      <div class="tratamiento-card">
-        <img src="imagenes/turismo/tratamientos/cuidado.webp" alt="cuidado">
-        <h3>Cuidado Preventivo</h3>
-      </div>
-    </div>
-    <section class="tratamientos-precios">
-      <table class="tratamientos-precios-tabla">
-        <tr class="precios-tabla-encabezado">
-          <th class="precios-tabla-titulo" colspan="2">Precios Estimados de Tratamientos</th>
-        </tr>
-        <tr class="precios-tabla-fila">
-          <td class="precios-tabla-fila-tratamiento">Diseño de sonrisa con carillas en resina superior e inferior </td>
-          <td class="precios-tabla-fila-precio">$2.000 dólares</td>
-        </tr>
-        <tr class="precios-tabla-fila">
-          <td class="precios-tabla-fila-tratamiento">Diseño de sonrisa con Carillas en cerámica superior e inferior 
-          </td>
-          <td class="precios-tabla-fila-precio">$6.000  dólares</td>
-        </tr>
-        <tr class="precios-tabla-fila">
-          <td class="precios-tabla-fila-tratamiento">Blanqueamiento</td>
-          <td class="precios-tabla-fila-precio">$75 dólares</td>
-        </tr>
-        <tr class="precios-tabla-fila">
-          <td class="precios-tabla-fila-tratamiento">Armonización gingival</td>
-          <td class="precios-tabla-fila-precio">$175 dólares</td>
-        </tr>`
-        <tr class="precios-tabla-fila">
-          <td class="precios-tabla-fila-tratamiento">Botox</td>
-          <td class="precios-tabla-fila-precio">$300 dólares</td>
-        </tr>
-        <tr class="precios-tabla-fila">
-          <td class="precios-tabla-fila-tratamiento">Coronas Zirconio monolítico</td>
-          <td class="precios-tabla-fila-precio">$300 dólares</td>
-        </tr>
-        <tr class="precios-tabla-fila">
-          <td class="precios-tabla-fila-tratamiento">Ultrasonido con desmanchamiento</td>
-          <td class="precios-tabla-fila-precio">$75 dólares</td>
-        </tr>
-      </table>
     </section>
-  </section>
+ 
+    <section>
+      <div class="full-width-section">
+        <div class="section-content" id="sectionContent">
+          <article>
+            <h1>Profesionalismo</h1>
+            <p id="contentShort">
+              Contamos con especialistas en distintas áreas como (endodoncia, rehabilitación, cirugía oral, periodoncia,
+              ortodoncia, estética dental, odontopediatría e implantología), con amplia experiencia profesional y en constante
+              actualización para poder brindar tratamientos innovadores y de la más alta calidad.
+            </p>
+            <br>
+            <p id="contentFull" class="hidden">
+              Contamos con una vasta experiencia de 27 años en el campo de la odontología,
+              desde nuestro inicio en 1997, perfeccionando sonrisas y brindando soluciones
+              efectivas para una amplia gama de necesidades dentales. Nuestra clínica se dedica
+              a ofrecer todos los servicios de la odontología moderna, garantizando un cuidado integral
+              y personalizado. Disponemos de un equipo de especialistas altamente calificados en diversas
+              áreas de la odontología, listos para atender y resolver cualquier inquietud o requerimiento
+              que puedas tener. Con un compromiso constante con la excelencia y la innovación, nos enorgullece
+              proporcionar tratamientos de calidad y resultados sobresalientes para cada uno de nuestros pacientes.
+            </p>
+          </article>
+          
+          <article>
+            <h1>Experiencia</h1>
+            <p>
+              Contamos con una amplia experiencia laboral de 27 años. Desde 1997 perfeccionado sonrisas Ofrecemos todos los
+              servicios de la odontología moderna contamos con todos los especialistas en las distintas áreas como
+              (endodoncia,
+              rehabilitación, cirugía oral, periodoncia, ortodoncia, estética dental, odontopediatría e implantología),
+            </p>
+          </article>
+        </div>
+        <i class="fas fa-briefcase ajusteIcon"></i>
+      </div>
+    </section>
+  
 
-  <!-- galeria de viaje -->
-  <section class="galery">
-    <div class="header">
-      <h1>Destinos en colombia</h1>
-    </div>
-    <div class="services-section">
-      <div class="service-item">
-        <h3>
-          Alojamiento
-          <img src="imagenes/icons/hotel.png" alt="Icono de Alojamiento" class="service-icon">
-        </h3>
-        <p>Más de 2,6+ M de opciones de alojamiento en 220 países</p>
+    <section class="section-profesionales-info">
+      <h3>Nuestros Profesionales</h3>
+      <div class="slider-doctores">
+        <div class="slider-doctores-info">
+          <div class="profesionales-info-doctor">
+            <p><strong>Ennya Lieseth Leonel Triana:</strong> Odontóloga, especialista en patología y Cirugía Bucal
+              implantología</p>
+          </div>
+          <div class="profesionales-info-doctor">
+            <p><strong>Elizabeth Baquero Beltrán:</strong> Odontóloga especialista en ortopedia funcional y Ortodoncia
+              especialista en diseño de sonrisa y rehabilitación</p>
+          </div>
+          <div class="profesionales-info-doctor">
+            <p><strong>Paula Andrea Fernández Baquero:</strong> Odontóloga, adelantado estudios de posgrado en
+              rehabilitación con diplomados estética dental, fotografía clínica y diseño de sonrisa</p>
+          </div>
+          <div class="profesionales-info-doctor">
+            <p><strong>Olga Lucia Calderón Ramos:</strong> Odontóloga general con diplomados en estética dental
+              rehabilitación oral</p>
+          </div>
+        </div>
       </div>
-      <div class="service-item">
-        <h3>
-          Traslados
-          <img src="imagenes/icons/carro.png" alt="Traslados" class="service-icon">
-        </h3>
-        <p>Cualquier tipo de traslado que necesites, desde vehículos estándar a premium, disponible en más de 100 países
-        </p>
+
+    </section>
+
+    <!-- Tratamientos -->
+    <section class="section-tratamientos">
+      <article>
+        <h2>Nuestros tratamientos Dentales</h2>
+        <div class="tratamientos-container">
+          <div class="tratamiento-card">
+            <img src="imagenes/turismo/tratamientos/ortodoncia.jpg" alt="Ortodoncia">
+            <h3>Ortodoncia</h3>
+          </div>
+          <div class="tratamiento-card">
+            <img src="imagenes/turismo/tratamientos/implates dentales.jpg" alt="Implantes dentales">
+            <h3>Implantes Dentales</h3>
+          </div>
+          <div class="tratamiento-card">
+            <img src="imagenes/turismo/tratamientos/endodoncia.jpg" alt="Endodoncia">
+            <h3>Endodoncia</h3>
+          </div>
+          <div class="tratamiento-card">
+            <img src="imagenes/turismo/tratamientos/blanqueamiento.jpg" alt="Blanqueamiento">
+            <h3>Blanqueamiento</h3>
+          </div>
+          <div class="tratamiento-card">
+            <img src="imagenes/turismo/tratamientos/periodoncia.jpg" alt="Periodoncia">
+            <h3>Periodoncia</h3>
+          </div>
+          <div class="tratamiento-card">
+            <img src="imagenes/turismo/tratamientos/cirugia.jpg" alt="extraccion">
+            <h3>Cirugía Oral</h3>
+          </div>
+          <div class="tratamiento-card">
+            <img src="imagenes/turismo/tratamientos/protesis.jpg" alt="protesis">
+            <h3>Prótesis Dentales</h3>
+          </div>
+          <div class="tratamiento-card">
+            <img src="imagenes/turismo/tratamientos/cuidado.webp" alt="cuidado">
+            <h3>Cuidado Preventivo</h3>
+          </div>
+        </div>
+      </article>
+
+      <article class="tratamientos-precios">
+        <table class="tratamientos-precios-tabla">
+          <tr class="precios-tabla-encabezado">
+            <th class="precios-tabla-titulo" colspan="2">Precios Estimados de Tratamientos</th>
+          </tr>
+          <tr class="precios-tabla-fila">
+            <td class="precios-tabla-fila-tratamiento">Diseño de sonrisa con carillas en resina superior e inferior </td>
+            <td class="precios-tabla-fila-precio">$2.000 dólares</td>
+          </tr>
+          <tr class="precios-tabla-fila">
+            <td class="precios-tabla-fila-tratamiento">Diseño de sonrisa con Carillas en cerámica superior e inferior 
+            </td>
+            <td class="precios-tabla-fila-precio">$6.000  dólares</td>
+          </tr>
+          <tr class="precios-tabla-fila">
+            <td class="precios-tabla-fila-tratamiento">Blanqueamiento</td>
+            <td class="precios-tabla-fila-precio">$75 dólares</td>
+          </tr>
+          <tr class="precios-tabla-fila">
+            <td class="precios-tabla-fila-tratamiento">Armonización gingival</td>
+            <td class="precios-tabla-fila-precio">$175 dólares</td>
+          </tr>`
+          <tr class="precios-tabla-fila">
+            <td class="precios-tabla-fila-tratamiento">Botox</td>
+            <td class="precios-tabla-fila-precio">$300 dólares</td>
+          </tr>
+          <tr class="precios-tabla-fila">
+            <td class="precios-tabla-fila-tratamiento">Coronas Zirconio monolítico</td>
+            <td class="precios-tabla-fila-precio">$300 dólares</td>
+          </tr>
+          <tr class="precios-tabla-fila">
+            <td class="precios-tabla-fila-tratamiento">Ultrasonido con desmanchamiento</td>
+            <td class="precios-tabla-fila-precio">$75 dólares</td>
+          </tr>
+        </table>
+      </article>
+
+    </section>
+
+    <!-- galeria de viaje -->
+    <section class="galery">
+      <div class="header">
+        <h1>Destinos en colombia</h1>
       </div>
-      <div class="service-item">
-        <h3>
-          Vuelos
-          <img src="imagenes/icons/avion.png" alt="Vuelo" class="service-icon">
-        </h3>
-        <p>Billetes aéreos de 350 aerolíneas de todo el mundo, hasta 9 pasajeros en una misma reserva</p>
+      <div class="services-section">
+        <div class="service-item">
+          <h3>
+            Alojamiento
+            <img src="imagenes/icons/hotel.png" alt="Icono de Alojamiento" class="service-icon">
+          </h3>
+          <p>Más de 2,6+ M de opciones de alojamiento en 220 países</p>
+        </div>
+        <div class="service-item">
+          <h3>
+            Traslados
+            <img src="imagenes/icons/carro.png" alt="Traslados" class="service-icon">
+          </h3>
+          <p>Cualquier tipo de traslado que necesites, desde vehículos estándar a premium, disponible en más de 100 países
+          </p>
+        </div>
+        <div class="service-item">
+          <h3>
+            Vuelos
+            <img src="imagenes/icons/avion.png" alt="Vuelo" class="service-icon">
+          </h3>
+          <p>Billetes aéreos de 350 aerolíneas de todo el mundo, hasta 9 pasajeros en una misma reserva</p>
+        </div>
+        <div class="service-item">
+          <h3>
+            Promociones
+            <img src="imagenes/icons/descuento.png" alt="Descuento" class="service-icon">
+          </h3>
+          <p>Descubre nuestra variedad de promciones para que disfrutes aun mas tu visita </p>
+        </div>
       </div>
-      <div class="service-item">
-        <h3>
-          Promociones
-          <img src="imagenes/icons/descuento.png" alt="Descuento" class="service-icon">
-        </h3>
-        <p>Descubre nuestra variedad de promciones para que disfrutes aun mas tu visita </p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="column">
-        <img src="imagenes/turismo/fotos/lugar8.webp" style="width:100%">
-        <img src="imagenes/turismo/fotos/lugar3.jpg" style="width:100%">
-        <img src="imagenes/turismo/fotos/lugar2.jpg" style="width:100%">
-        <img src="imagenes/turismo/fotos/lugar4.jpeg" style="width:100%;">
-      </div>
-      <div class="column">
-        <img src="imagenes/turismo/fotos/lugar7.jpg" style="width:100%">
-        <img src="imagenes/turismo/fotos/lugar5.jpg" style="width:100%">
-        <img src="imagenes/turismo/fotos/lugar6.jpg" style="width:100%" class="correcion">
+      <div class="row">
+        <div class="column">
+          <img src="imagenes/turismo/fotos/lugar8.webp" style="width:100%">
+          <img src="imagenes/turismo/fotos/lugar3.jpg" style="width:100%">
+          <img src="imagenes/turismo/fotos/lugar2.jpg" style="width:100%">
+          <img src="imagenes/turismo/fotos/lugar4.jpeg" style="width:100%;">
+        </div>
+        <div class="column">
+          <img src="imagenes/turismo/fotos/lugar7.jpg" style="width:100%">
+          <img src="imagenes/turismo/fotos/lugar5.jpg" style="width:100%">
+          <img src="imagenes/turismo/fotos/lugar6.jpg" style="width:100%" class="correcion">
 
 
-      </div>
-      <div class="column">
-        <img src="imagenes/turismo/fotos/lugar9.jpg" style="width:100%">
-        <img src="imagenes/turismo/fotos/lugar10.jpg" style="width:100%">
-        <img src="imagenes/turismo/fotos/lugar11.jpg" style="width:100%">
-      </div>
-      <div class="column">
-        <img src="imagenes/turismo/fotos/lugar12.jpg" style="width:100%">
-        <img src="imagenes/turismo/fotos/lugar13.webp" style="width:100%">
-        <img src="imagenes/turismo/fotos/lugar14.jpg" style="width:100%" class="correcion2">
+        </div>
+        <div class="column">
+          <img src="imagenes/turismo/fotos/lugar9.jpg" style="width:100%">
+          <img src="imagenes/turismo/fotos/lugar10.jpg" style="width:100%">
+          <img src="imagenes/turismo/fotos/lugar11.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="imagenes/turismo/fotos/lugar12.jpg" style="width:100%">
+          <img src="imagenes/turismo/fotos/lugar13.webp" style="width:100%">
+          <img src="imagenes/turismo/fotos/lugar14.jpg" style="width:100%" class="correcion2">
 
+        </div>
       </div>
-    </div>
-    <div class="header-footer">
-      <h1>Más de 100.000+ clientes de todo el mundo confían en nosotros</h1>
-    </div>
-  </section>
-  <!-- Hoteles y Ajencias -->
-  <section class="brands-section">
-    <div class="carousel">
-      <div class="carousel-wrapper">
-        <div class="carousel-item"><img src="imagenes/turismo/carousel/hotel1.png" alt="Marca 1"></div>
-        <div class="carousel-item"><img src="imagenes/turismo/carousel/viaje1.png" alt="Marca 2"></div>
-        <div class="carousel-item"><img src="imagenes/turismo/carousel/viaje2.png" alt="Marca 3"></div>
-        <div class="carousel-item"><img src="imagenes/turismo/carousel/hotel1.png" alt="Marca 1"></div>
-        <div class="carousel-item"><img src="imagenes/turismo/carousel/viaje1.png" alt="Marca 2"></div>
-        <div class="carousel-item"><img src="imagenes/turismo/carousel/viaje2.png" alt="Marca 3"></div>
-        <div class="carousel-item"><img src="imagenes/turismo/carousel/hotel1.png" alt="Marca 1"></div>
-        <div class="carousel-item"><img src="imagenes/turismo/carousel/viaje1.png" alt="Marca 2"></div>
-        <div class="carousel-item"><img src="imagenes/turismo/carousel/viaje2.png" alt="Marca 3"></div>
-        <div class="carousel-item"><img src="imagenes/turismo/carousel/hotel1.png" alt="Marca 1"></div>
-        <div class="carousel-item"><img src="imagenes/turismo/carousel/viaje1.png" alt="Marca 2"></div>
-        <div class="carousel-item"><img src="imagenes/turismo/carousel/viaje2.png" alt="Marca 3"></div>
+      <div class="header-footer">
+        <h1>Más de 100.000+ clientes de todo el mundo confían en nosotros</h1>
       </div>
-    </div>
-  </section>
-  <!-- Paquetes -->
-  <section class="travel-card">
-    <h3>Descubre tu próximo destino</h3>
-    <!-- Inicio del primer paquete -->
-    <div class="travel-card-content">
-      <div class="travel-card-image-container">
-        <div>
-          <img src="imagenes/turismo/fotos/lugar11.jpg" alt="Destino Tropical" class="travel-card-image">
-          <div class="travel-card-pricing">
-            <!-- <div class="ahorras">Ahorras: MXN$2,000 </div> -->
-            <div class="detalle-incluye">Vuelo + Alojamiento + Traslados + Tours</div>
-            <div class="precio-final">Valor total del plan por persona:</div>
-            <!-- <div class="precio-hidden">MXN$15,000</div> -->
-            <div class="precio-normal">$1,418.34 USD</div>
-            <!-- <div class="precio-final-2personas">Final 2 personas: MXN$19,000</div> -->
-            <!-- <div class="incluye">Sujeto a cambios tarifarios</div> -->
-            <button class="hidden" id="More">Más información.</button>
-            <div id="info2">
-              <div class="travel-card-text">
-                <div class="title-container">
-                  <img src="imagenes/icons/marcador.png" alt="Marcador" class="title-icon">
-                  <h2>Miami - Bogotá - Miami</h2>
-                </div>
-                <div class="icons-container">
-                  <div class="stars-container">
-                    <img src="imagenes/icons/star.png" alt="estrella">
-                    <img src="imagenes/icons/star.png" alt="estrella">
-                    <img src="imagenes/icons/star.png" alt="estrella">
-                    <img src="imagenes/icons/star.png" alt="estrella">
-                    <img src="imagenes/icons/star.png" alt="estrella">
+    </section>
+    <!-- Hoteles y Ajencias -->
+    <section class="brands-section">
+      <div class="carousel">
+        <div class="carousel-wrapper">
+          <div class="carousel-item"><img src="imagenes/turismo/carousel/hotel1.png" alt="Marca 1"></div>
+          <div class="carousel-item"><img src="imagenes/turismo/carousel/viaje1.png" alt="Marca 2"></div>
+          <div class="carousel-item"><img src="imagenes/turismo/carousel/viaje2.png" alt="Marca 3"></div>
+          <div class="carousel-item"><img src="imagenes/turismo/carousel/hotel1.png" alt="Marca 1"></div>
+          <div class="carousel-item"><img src="imagenes/turismo/carousel/viaje1.png" alt="Marca 2"></div>
+          <div class="carousel-item"><img src="imagenes/turismo/carousel/viaje2.png" alt="Marca 3"></div>
+          <div class="carousel-item"><img src="imagenes/turismo/carousel/hotel1.png" alt="Marca 1"></div>
+          <div class="carousel-item"><img src="imagenes/turismo/carousel/viaje1.png" alt="Marca 2"></div>
+          <div class="carousel-item"><img src="imagenes/turismo/carousel/viaje2.png" alt="Marca 3"></div>
+          <div class="carousel-item"><img src="imagenes/turismo/carousel/hotel1.png" alt="Marca 1"></div>
+          <div class="carousel-item"><img src="imagenes/turismo/carousel/viaje1.png" alt="Marca 2"></div>
+          <div class="carousel-item"><img src="imagenes/turismo/carousel/viaje2.png" alt="Marca 3"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Paquetes -->
+    <section class="travel-card">
+      <h3>Descubre tu próximo destino</h3>
+      <!-- Inicio del primer paquete -->
+      <div class="travel-card-content">
+        <div class="travel-card-image-container">
+          <div>
+            <img src="imagenes/turismo/fotos/lugar11.jpg" alt="Destino Tropical" class="travel-card-image">
+            <div class="travel-card-pricing">
+              <!-- <div class="ahorras">Ahorras: MXN$2,000 </div> -->
+              <div class="detalle-incluye">Vuelo + Alojamiento + Traslados + Tours</div>
+              <div class="precio-final">Valor total del plan por persona:</div>
+              <!-- <div class="precio-hidden">MXN$15,000</div> -->
+              <div class="precio-normal">$1,418.34 USD</div>
+              <!-- <div class="precio-final-2personas">Final 2 personas: MXN$19,000</div> -->
+              <!-- <div class="incluye">Sujeto a cambios tarifarios</div> -->
+              <button class="hidden" id="More">Más información.</button>
+              <div id="info2">
+                <div class="travel-card-text">
+                  <div class="title-container">
+                    <img src="imagenes/icons/marcador.png" alt="Marcador" class="title-icon">
+                    <h2>Miami - Bogotá - Miami</h2>
                   </div>
-                  <div class="line-vertical"></div>
-                  <div class="icon-wrapper">
-                    <img src="imagenes/icons/wifi.png" alt="wifi">
-                    <img src="imagenes/icons/burguer.png" alt="burguer">
-                    <img src="imagenes/icons/carros.png" alt="carros">
-                    <img src="imagenes/icons/guia.png" alt="guia">
-                    <img src="imagenes/icons/estacionamiento.png" alt="estacionamiento">
-                    <img src="imagenes/icons/avion.png" class="title-icon" alt="">
+                  <div class="icons-container">
+                    <div class="stars-container">
+                      <img src="imagenes/icons/star.png" alt="estrella">
+                      <img src="imagenes/icons/star.png" alt="estrella">
+                      <img src="imagenes/icons/star.png" alt="estrella">
+                      <img src="imagenes/icons/star.png" alt="estrella">
+                      <img src="imagenes/icons/star.png" alt="estrella">
+                    </div>
+                    <div class="line-vertical"></div>
+                    <div class="icon-wrapper">
+                      <img src="imagenes/icons/wifi.png" alt="wifi">
+                      <img src="imagenes/icons/burguer.png" alt="burguer">
+                      <img src="imagenes/icons/carros.png" alt="carros">
+                      <img src="imagenes/icons/guia.png" alt="guia">
+                      <img src="imagenes/icons/estacionamiento.png" alt="estacionamiento">
+                      <img src="imagenes/icons/avion.png" class="title-icon" alt="">
+                    </div>
                   </div>
-                </div>
-                <div class="travel-card-details">
-                  <p>Duración: 4 días / 3 noches</p>
-                  <p>Incluye:
-                  <ul class="grid-list">
-                    <li>Tickets aéreo directo Miami – Bogotá –Miami.</li>
-                    <li>Con equipaje en bodega de 20 Kilos.</li>
-                    <li>Alojamiento en el Hotel ALOFT AIRPORT con desayuno.</li>
-                    <li>Traslados</li>
-                    <li>Tour 1: Monserrate y la Candelaria.
-                      <br>Tour 2: Guatavita y Zipaquirá
-                    </li>
-                    <li>Asistencia Médica.</li>
+                  <div class="travel-card-details">
+                    <p>Duración: 4 días / 3 noches</p>
+                    <p>Incluye:
+                    <ul class="grid-list">
+                      <li>Tickets aéreo directo Miami – Bogotá –Miami.</li>
+                      <li>Con equipaje en bodega de 20 Kilos.</li>
+                      <li>Alojamiento en el Hotel ALOFT AIRPORT con desayuno.</li>
+                      <li>Traslados</li>
+                      <li>Tour 1: Monserrate y la Candelaria.
+                        <br>Tour 2: Guatavita y Zipaquirá
+                      </li>
+                      <li>Asistencia Médica.</li>
+                    </ul>
+                    </p>
+                  </div>
+                  <p>Aloft Bogotá es un moderno hotel ubicado en la capital de Colombia, a 3
+                    kilómetros del Aeropuerto Internacional El Dorado (BOG).</p>
+                  <ul class="condiciones">
+                    <li>Cotizaciones sujetas a cambios al momento de solicitar reserva. </li>
+                    <li>Tarifas sujetas a cambios</li>
+                    <li> Disponibilidad aérea y hotelera sujeta a cambios en el momento de solicitar la reserva</li>
+                    <li></li>
                   </ul>
-                  </p>
-                </div>
-                <p>Aloft Bogotá es un moderno hotel ubicado en la capital de Colombia, a 3
-                  kilómetros del Aeropuerto Internacional El Dorado (BOG).</p>
-                <ul class="condiciones">
-                  <li>Cotizaciones sujetas a cambios al momento de solicitar reserva. </li>
-                  <li>Tarifas sujetas a cambios</li>
-                  <li> Disponibilidad aérea y hotelera sujeta a cambios en el momento de solicitar la reserva</li>
-                  <li></li>
-                </ul>
 
+                </div>
+              </div>
+              <button class="btn-primary">Reservar ya</button>
+            </div>
+          </div>
+          <div class="travel-card-text">
+            <div class="title-container">
+              <img src="imagenes/icons/marcador.png" alt="Marcador" class="title-icon">
+              <h2>Miami - Bogotá - Miami</h2>
+            </div>
+            <div class="icons-container">
+              <div class="stars-container">
+                <img src="imagenes/icons/star.png" alt="estrella">
+                <img src="imagenes/icons/star.png" alt="estrella">
+                <img src="imagenes/icons/star.png" alt="estrella">
+                <img src="imagenes/icons/star.png" alt="estrella">
+                <img src="imagenes/icons/star.png" alt="estrella">
+              </div>
+              <div class="line-vertical"></div>
+              <div class="icon-wrapper">
+                <img src="imagenes/icons/wifi.png" alt="wifi">
+                <img src="imagenes/icons/burguer.png" alt="burguer">
+                <img src="imagenes/icons/carros.png" alt="carros">
+                <img src="imagenes/icons/guia.png" alt="guia">
+                <img src="imagenes/icons/estacionamiento.png" alt="estacionamiento">
+                <img src="imagenes/icons/avion.png" class="title-icon" alt="">
               </div>
             </div>
-            <button class="btn-primary">Reservar ya</button>
-          </div>
-        </div>
-        <div class="travel-card-text">
-          <div class="title-container">
-            <img src="imagenes/icons/marcador.png" alt="Marcador" class="title-icon">
-            <h2>Miami - Bogotá - Miami</h2>
-          </div>
-          <div class="icons-container">
-            <div class="stars-container">
-              <img src="imagenes/icons/star.png" alt="estrella">
-              <img src="imagenes/icons/star.png" alt="estrella">
-              <img src="imagenes/icons/star.png" alt="estrella">
-              <img src="imagenes/icons/star.png" alt="estrella">
-              <img src="imagenes/icons/star.png" alt="estrella">
+            <div class="travel-card-details">
+              <p>Duración: 4 días / 3 noches</p>
+              <p>Incluye:
+              <ul class="grid-list">
+                <li>Tickets aéreo directo Miami – Bogotá –Miami.</li>
+                <li>Con equipaje en bodega de 20 Kilos.</li>
+                <li>Alojamiento en el Hotel ALOFT AIRPORT con desayuno.</li>
+                <li>Traslados Aeropuerto-Hotel-Aeropuerto </li>
+                <li>Tour 1: Monserrate y la Candelaria. <br>
+                  Tour 2: Guatavita y Zipaquirá
+                </li>
+                <li>Asistencia Médica.</li>
+              </ul>
+              </p>
             </div>
-            <div class="line-vertical"></div>
-            <div class="icon-wrapper">
-              <img src="imagenes/icons/wifi.png" alt="wifi">
-              <img src="imagenes/icons/burguer.png" alt="burguer">
-              <img src="imagenes/icons/carros.png" alt="carros">
-              <img src="imagenes/icons/guia.png" alt="guia">
-              <img src="imagenes/icons/estacionamiento.png" alt="estacionamiento">
-              <img src="imagenes/icons/avion.png" class="title-icon" alt="">
-            </div>
-          </div>
-          <div class="travel-card-details">
-            <p>Duración: 4 días / 3 noches</p>
-            <p>Incluye:
-            <ul class="grid-list">
-              <li>Tickets aéreo directo Miami – Bogotá –Miami.</li>
-              <li>Con equipaje en bodega de 20 Kilos.</li>
-              <li>Alojamiento en el Hotel ALOFT AIRPORT con desayuno.</li>
-              <li>Traslados Aeropuerto-Hotel-Aeropuerto </li>
-              <li>Tour 1: Monserrate y la Candelaria. <br>
-                Tour 2: Guatavita y Zipaquirá
-              </li>
-              <li>Asistencia Médica.</li>
+            <p>Aloft Bogotá es un moderno hotel ubicado en la capital de Colombia, a 3
+              kilómetros del Aeropuerto Internacional El Dorado (BOG).</p>
+            <ul class="condiciones">
+              <li>Cotizaciones sujetas a cambios al momento de solicitar reserva. </li>
+              <li>Tarifas sujetas a cambios</li>
+              <li> Disponibilidad area y hoteleria sujeta a cambios en el momentos de solicitar la reserva </li>
+              <li>Precios por persona en acomodación doble</li>
             </ul>
-            </p>
           </div>
-          <p>Aloft Bogotá es un moderno hotel ubicado en la capital de Colombia, a 3
-            kilómetros del Aeropuerto Internacional El Dorado (BOG).</p>
-          <ul class="condiciones">
-            <li>Cotizaciones sujetas a cambios al momento de solicitar reserva. </li>
-            <li>Tarifas sujetas a cambios</li>
-            <li> Disponibilidad area y hoteleria sujeta a cambios en el momentos de solicitar la reserva </li>
-            <li>Precios por persona en acomodación doble</li>
-          </ul>
         </div>
       </div>
-    </div>
 
-    <!-- Inicio del segundo paquete -->
-    <div class="travel-card-content">
-      <div class="travel-card-image-container">
-        <div>
-          <img src="imagenes/turismo/fotos/lugar12.jpg" alt="Destino Tropical" class="travel-card-image">
-          <div class="travel-card-pricing">
-            <!-- <div class="ahorras">Ahorras: MXN$2,000 </div> -->
-            <div class="detalle-incluye">LA MAGIA DEL EJE CAFETERO</div>
-            <div class="detalle-incluye">Vuelo + Alojamiento + Traslados + Experiencias</div>
-            <div class="precio-final">Valor total del plan por persona:</div>
-            <!-- <div class="precio-hidden">MXN$15,000</div> -->
-            <div class="precio-normal">$1,730.90 USD</div>
-            <!-- <div class="precio-final-2personas">Final 2 personas: MXN$19,000</div> -->
-            <!-- <div class="incluye">Sujeto a cambios tarifarios</div> -->
-            <button class="hidden" id="More2">Más información..</button>
-            <div id="info2">
-              <div class="travel-card-text">
-                <div class="title-container">
-                  <img src="imagenes/icons/marcador.png" alt="Marcador" class="title-icon">
-                  <h2>Miami - Bogotá - Miami</h2>
-                </div>
-                <div class="icons-container">
-                  <div class="stars-container">
-                    <img src="imagenes/icons/star.png" alt="estrella">
-                    <img src="imagenes/icons/star.png" alt="estrella">
-                    <img src="imagenes/icons/star.png" alt="estrella">
-                    <img src="imagenes/icons/star.png" alt="estrella">
-                    <img src="imagenes/icons/star.png" alt="estrella">
+      <!-- Inicio del segundo paquete -->
+      <div class="travel-card-content">
+        <div class="travel-card-image-container">
+          <div>
+            <img src="imagenes/turismo/fotos/lugar12.jpg" alt="Destino Tropical" class="travel-card-image">
+            <div class="travel-card-pricing">
+              <!-- <div class="ahorras">Ahorras: MXN$2,000 </div> -->
+              <div class="detalle-incluye">LA MAGIA DEL EJE CAFETERO</div>
+              <div class="detalle-incluye">Vuelo + Alojamiento + Traslados + Experiencias</div>
+              <div class="precio-final">Valor total del plan por persona:</div>
+              <!-- <div class="precio-hidden">MXN$15,000</div> -->
+              <div class="precio-normal">$1,730.90 USD</div>
+              <!-- <div class="precio-final-2personas">Final 2 personas: MXN$19,000</div> -->
+              <!-- <div class="incluye">Sujeto a cambios tarifarios</div> -->
+              <button class="hidden" id="More2">Más información..</button>
+              <div id="info2">
+                <div class="travel-card-text">
+                  <div class="title-container">
+                    <img src="imagenes/icons/marcador.png" alt="Marcador" class="title-icon">
+                    <h2>Miami - Bogotá - Miami</h2>
                   </div>
-                  <div class="line-vertical"></div>
-                  <div class="icon-wrapper">
-                    <img src="imagenes/icons/wifi.png" alt="wifi">
-                    <img src="imagenes/icons/burguer.png" alt="burguer">
-                    <img src="imagenes/icons/carros.png" alt="carros">
-                    <img src="imagenes/icons/guia.png" alt="guia">
-                    <img src="imagenes/icons/estacionamiento.png" alt="estacionamiento">
-                    <img src="imagenes/icons/avion.png" class="title-icon" alt="">
+                  <div class="icons-container">
+                    <div class="stars-container">
+                      <img src="imagenes/icons/star.png" alt="estrella">
+                      <img src="imagenes/icons/star.png" alt="estrella">
+                      <img src="imagenes/icons/star.png" alt="estrella">
+                      <img src="imagenes/icons/star.png" alt="estrella">
+                      <img src="imagenes/icons/star.png" alt="estrella">
+                    </div>
+                    <div class="line-vertical"></div>
+                    <div class="icon-wrapper">
+                      <img src="imagenes/icons/wifi.png" alt="wifi">
+                      <img src="imagenes/icons/burguer.png" alt="burguer">
+                      <img src="imagenes/icons/carros.png" alt="carros">
+                      <img src="imagenes/icons/guia.png" alt="guia">
+                      <img src="imagenes/icons/estacionamiento.png" alt="estacionamiento">
+                      <img src="imagenes/icons/avion.png" class="title-icon" alt="">
+                    </div>
                   </div>
-                </div>
-                <div class="travel-card-details">
-                  <p>Duración: 6 días / 6 noches</p>
-                  <p>Incluye:
-                  <ul class="grid-list">
-                    <li>Tickets aéreo directo Miami – Bogotá –Miami.</li>
-                    <li>Con equipaje en bodega de 20 Kilos .</li>
-                    <li>Alojamiento en el Hotel ALOFT AIRPORT, con Desayuno (2 noches).</li>
-                    <li>Tiquetes Aéreos Bogotá-Armenia-Bogotá </li>
-                    <li>Alojamiento con Desayunos y cenas (3 noches) </li>
-                    <li>Traslados Aeropuerto-Hotel-Aeropuerto</li>
+                  <div class="travel-card-details">
+                    <p>Duración: 6 días / 6 noches</p>
+                    <p>Incluye:
+                    <ul class="grid-list">
+                      <li>Tickets aéreo directo Miami – Bogotá –Miami.</li>
+                      <li>Con equipaje en bodega de 20 Kilos .</li>
+                      <li>Alojamiento en el Hotel ALOFT AIRPORT, con Desayuno (2 noches).</li>
+                      <li>Tiquetes Aéreos Bogotá-Armenia-Bogotá </li>
+                      <li>Alojamiento con Desayunos y cenas (3 noches) </li>
+                      <li>Traslados Aeropuerto-Hotel-Aeropuerto</li>
+                    </ul>
+                    </p>
+                  </div>
+                  <p>Disfruta de unas vacaciones inolvidables en nuestras playas de arena blanca y aguas cristalinas.
+                    Explora la belleza natural y relájate en un resort de lujo.</p>
+                  <ul class="condiciones">
+                    <li>Cotización sujeta a cambios al momento de solicitar reserva. </li>
+                    <li>Tarifas sujetas a cambios</li>
+                    <li>Precios por persona en acomodación doble</li>
+                    <li> Disponibilidad aérea y hotelera sujeta a cambios en el momento de solicitar la reserva</li>
                   </ul>
-                  </p>
+
                 </div>
-                <p>Disfruta de unas vacaciones inolvidables en nuestras playas de arena blanca y aguas cristalinas.
-                  Explora la belleza natural y relájate en un resort de lujo.</p>
-                <ul class="condiciones">
-                  <li>Cotización sujeta a cambios al momento de solicitar reserva. </li>
-                  <li>Tarifas sujetas a cambios</li>
-                  <li>Precios por persona en acomodación doble</li>
-                  <li> Disponibilidad aérea y hotelera sujeta a cambios en el momento de solicitar la reserva</li>
+              </div>
+              <button class="btn-primary">Reservar ya</button>
+            </div>
+          </div>
+          <div class="travel-card-text">
+            <div class="title-container">
+              <img src="imagenes/icons/marcador.png" alt="Marcador" class="title-icon">
+              <h2>Miami - Bogotá - Miami</h2>
+            </div>
+            <div class="icons-container">
+              <div class="stars-container">
+                <img src="imagenes/icons/star.png" alt="estrella">
+                <img src="imagenes/icons/star.png" alt="estrella">
+                <img src="imagenes/icons/star.png" alt="estrella">
+                <img src="imagenes/icons/star.png" alt="estrella">
+                <img src="imagenes/icons/star.png" alt="estrella">
+              </div>
+              <div class="line-vertical"></div>
+              <div class="icon-wrapper">
+                <img src="imagenes/icons/wifi.png" alt="wifi">
+                <img src="imagenes/icons/burguer.png" alt="burguer">
+                <img src="imagenes/icons/carros.png" alt="carros">
+                <img src="imagenes/icons/guia.png" alt="guia">
+                <img src="imagenes/icons/estacionamiento.png" alt="estacionamiento">
+                <img src="imagenes/icons/avion.png" class="title-icon" alt="">
+              </div>
+            </div>
+            <div class="travel-card-details">
+              <p>Duración: 6 días / 5 noches</p>
+              <p>Incluye:
+              <ul class="grid-list">
+                <li>Tickets aéreo directo Miami – Bogotá –Miami.</li>
+                <li>Con equipaje en bodega de 20 Kilos.</li>
+                <li>Alojamiento en el Hotel ALOFT AIRPORT, con Desayuno (2 noches)</li>
+                <li>Tiquetes Aéreos Bogotá-Armenia-Bogotá</li>
+                <li>Alojamiento con Desayunos y cenas (3 noches) </li>
+                <li>Traslados Aeropuerto-Hotel-Aeropuerto</li>
+              </ul>
+              </p>
+            </div>
+            <p>El hotel esta a 9.2km del consultorio de la Doctora Elizabeth Baquero,
+              aproximadamente entre 25 a 35 minutos según tráfico en vehículo particular. .</p>
+            <ul class="condiciones">
+              <li>Cotización sujeta a cambios al momento de solicitar reserva. </li>
+              <li>Tarifas sujetas a cambios</li>
+              <li>Precios por persona en acomodación doble</li>
+              <li> Disponibilidad aérea y hotelera sujeta a cambios en el momento de solicitar la reserva</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Modal del paquete uno -->
+    <section>
+      <div id="modalV" class="modalV">
+        <button id="close1">
+          <i class="fa-solid fa-xmark" id="close1"></i>
+        </button>
+        <div id="container-modalV" class="container-modalV">
+    
+          <div id="infoModal" class="infoModal">
+            <div class="travel-card-text2">
+              <div class="title-container">
+                <img src="imagenes/icons/marcador.png" alt="Marcador" class="title-icon">
+                <h2>Miami - Bogotá</h2>
+              </div>
+              <div class="icons-container">
+                <div class="stars-container">
+                  <img src="imagenes/icons/star.png" alt="estrella">
+                  <img src="imagenes/icons/star.png" alt="estrella">
+                  <img src="imagenes/icons/star.png" alt="estrella">
+                  <img src="imagenes/icons/star.png" alt="estrella">
+                  <img src="imagenes/icons/star.png" alt="estrella">
+                </div>
+                <div class="line-vertical"></div>
+                <div class="icon-wrapper">
+                  <img src="imagenes/icons/wifi2.png" alt="wifi">
+                  <img src="imagenes/icons/burguer2.png" alt="burguer">
+                  <img src="imagenes/icons/carros2.png" alt="carros">
+                  <img src="imagenes/icons/guia2.png" alt="guia">
+                  <img src="imagenes/icons/estacionamiento2.png" alt="estacionamiento">
+                  <img src="imagenes/icons/avion2.png" class="title-icon" alt="">
+                </div>
+              </div>
+              <div class="travel-card-details">
+                <p>Duración: 4 días / 3 noches</p>
+                <p>Incluye:
+                <ul class="grid-list">
+                  <li>Tickets aéreo directo Miami – Bogotá –Miami.</li>
+                  <li>Con equipaje en bodega de 20 Kilos.</li>
+                  <li>Alojamiento en el Hotel ALOFT AIRPORT con desayuno.</li>
+                  <li>Traslados Aeropuerto-Hotel-Aeropuerto</li>
+                  <li>Tour 1: Monserrate y la Candelaria. <br>
+                    Tour 2: Guatavita y Zipaquirá </li>
+                  <li>Asistencia Médica.</li>
                 </ul>
-
+                </p>
               </div>
+              <p>Aloft Bogotá es un moderno hotel ubicado en la capital de Colombia, a 3 kilómetros del Aeropuerto Internacional El Dorado (BOG)..</p>
+              <ul class="condiciones">
+                <li>Cotización sujeta a cambios al momento de solicitar reserva.</li>
+                <li>Tarifas sujetas a cambios</li>
+                <li>Precios por persona en acomodación doble</li>
+                <li> Disponibilidad aérea y hotelera sujeta a cambios en el momento de solicitar la reserva </li>
+              </ul>
+    
             </div>
-            <button class="btn-primary">Reservar ya</button>
           </div>
         </div>
-        <div class="travel-card-text">
-          <div class="title-container">
-            <img src="imagenes/icons/marcador.png" alt="Marcador" class="title-icon">
-            <h2>Miami - Bogotá - Miami</h2>
-          </div>
-          <div class="icons-container">
-            <div class="stars-container">
-              <img src="imagenes/icons/star.png" alt="estrella">
-              <img src="imagenes/icons/star.png" alt="estrella">
-              <img src="imagenes/icons/star.png" alt="estrella">
-              <img src="imagenes/icons/star.png" alt="estrella">
-              <img src="imagenes/icons/star.png" alt="estrella">
+      </div>
+    </section>
+
+    <!-- Modal del paquete dos -->
+    <section>
+    <div id="modalV2" class="modalV2">
+      <button id="close2">
+        <i class="fa-solid fa-xmark" id="close2"></i>
+      </button>
+      <div id="container-modalV2" class="container-modalV2">
+
+        <div id="infoModal2" class="infoModal2">
+          <div class="travel-card-text2">
+            <div class="title-container">
+              <img src="imagenes/icons/marcador.png" alt="Marcador" class="title-icon">
+              <h2>Miami - Bogotá - Miami</h2>
             </div>
-            <div class="line-vertical"></div>
-            <div class="icon-wrapper">
-              <img src="imagenes/icons/wifi.png" alt="wifi">
-              <img src="imagenes/icons/burguer.png" alt="burguer">
-              <img src="imagenes/icons/carros.png" alt="carros">
-              <img src="imagenes/icons/guia.png" alt="guia">
-              <img src="imagenes/icons/estacionamiento.png" alt="estacionamiento">
-              <img src="imagenes/icons/avion.png" class="title-icon" alt="">
+            <div class="icons-container">
+              <div class="stars-container">
+                <img src="imagenes/icons/star.png" alt="estrella">
+                <img src="imagenes/icons/star.png" alt="estrella">
+                <img src="imagenes/icons/star.png" alt="estrella">
+                <img src="imagenes/icons/star.png" alt="estrella">
+                <img src="imagenes/icons/star.png" alt="estrella">
+              </div>
+              <div class="line-vertical"></div>
+              <div class="icon-wrapper">
+                <img src="imagenes/icons/wifi2.png" alt="wifi">
+                <img src="imagenes/icons/burguer2.png" alt="burguer">
+                <img src="imagenes/icons/carros2.png" alt="carros">
+                <img src="imagenes/icons/guia2.png" alt="guia">
+                <img src="imagenes/icons/estacionamiento2.png" alt="estacionamiento">
+                <img src="imagenes/icons/avion2.png" class="title-icon" alt="">
+              </div>
             </div>
-          </div>
-          <div class="travel-card-details">
-            <p>Duración: 6 días / 5 noches</p>
-            <p>Incluye:
-            <ul class="grid-list">
-              <li>Tickets aéreo directo Miami – Bogotá –Miami.</li>
-              <li>Con equipaje en bodega de 20 Kilos.</li>
-              <li>Alojamiento en el Hotel ALOFT AIRPORT, con Desayuno (2 noches)</li>
-              <li>Tiquetes Aéreos Bogotá-Armenia-Bogotá</li>
-              <li>Alojamiento con Desayunos y cenas (3 noches) </li>
-              <li>Traslados Aeropuerto-Hotel-Aeropuerto</li>
+            <div class="travel-card-details">
+              <p>Duración: 6 días / 5 noches</p>
+              <p>Incluye:
+              <ul class="grid-list">
+                <li>Tickets aéreo directo Miami – Bogotá –Miami.</li>
+                <li>Con equipaje en bodega de 20 Kilos.</li>
+                <li>Alojamiento en el Hotel ALOFT AIRPORT, con Desayuno (2 noches).</li>
+                <li>Tiquetes Aéreos Bogotá-Armenia-Bogotá </li>
+                <li>Alojamiento con Desayunos y cenas (3 noches) </li>
+                <li>Traslados Aeropuerto-Hotel-Aeropuerto</li>
+              </ul>
+              </p>
+            </div>
+            <p>El hotel esta a 9.2km del consultorio de la Doctora Elizabeth Baquero,
+              aproximadamente entre 25 a 35 minutos según tráfico en vehículo particular. .</p>
+            <ul class="condiciones">
+              <li>Cotización sujeta a cambios al momento de solicitar reserva. </li>
+              <li>Precios por persona en acomodación doble</li>
+              <li>Tarifas sujetas a cambios</li>
+              <li> Disponibilidad aérea y hotelera sujeta a cambios en el momento de solicitar la reserva </li>
             </ul>
-            </p>
-          </div>
-          <p>El hotel esta a 9.2km del consultorio de la Doctora Elizabeth Baquero,
-            aproximadamente entre 25 a 35 minutos según tráfico en vehículo particular. .</p>
-          <ul class="condiciones">
-            <li>Cotización sujeta a cambios al momento de solicitar reserva. </li>
-            <li>Tarifas sujetas a cambios</li>
-            <li>Precios por persona en acomodación doble</li>
-            <li> Disponibilidad aérea y hotelera sujeta a cambios en el momento de solicitar la reserva</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Modal del paquete uno -->
-  <div id="modalV" class="modalV">
-    <button id="close1">
-      <i class="fa-solid fa-xmark" id="close1"></i>
-    </button>
-    <div id="container-modalV" class="container-modalV">
-
-      <div id="infoModal" class="infoModal">
-        <div class="travel-card-text2">
-          <div class="title-container">
-            <img src="imagenes/icons/marcador.png" alt="Marcador" class="title-icon">
-            <h2>Miami - Bogotá</h2>
-          </div>
-          <div class="icons-container">
-            <div class="stars-container">
-              <img src="imagenes/icons/star.png" alt="estrella">
-              <img src="imagenes/icons/star.png" alt="estrella">
-              <img src="imagenes/icons/star.png" alt="estrella">
-              <img src="imagenes/icons/star.png" alt="estrella">
-              <img src="imagenes/icons/star.png" alt="estrella">
-            </div>
-            <div class="line-vertical"></div>
-            <div class="icon-wrapper">
-              <img src="imagenes/icons/wifi2.png" alt="wifi">
-              <img src="imagenes/icons/burguer2.png" alt="burguer">
-              <img src="imagenes/icons/carros2.png" alt="carros">
-              <img src="imagenes/icons/guia2.png" alt="guia">
-              <img src="imagenes/icons/estacionamiento2.png" alt="estacionamiento">
-              <img src="imagenes/icons/avion2.png" class="title-icon" alt="">
-            </div>
-          </div>
-          <div class="travel-card-details">
-            <p>Duración: 4 días / 3 noches</p>
-            <p>Incluye:
-            <ul class="grid-list">
-              <li>Tickets aéreo directo Miami – Bogotá –Miami.</li>
-              <li>Con equipaje en bodega de 20 Kilos.</li>
-              <li>Alojamiento en el Hotel ALOFT AIRPORT con desayuno.</li>
-              <li>Traslados Aeropuerto-Hotel-Aeropuerto</li>
-              <li>Tour 1: Monserrate y la Candelaria. <br>
-                Tour 2: Guatavita y Zipaquirá </li>
-              <li>Asistencia Médica.</li>
-            </ul>
-            </p>
-          </div>
-          <p>Aloft Bogotá es un moderno hotel ubicado en la capital de Colombia, a 3 kilómetros del Aeropuerto Internacional El Dorado (BOG)..</p>
-          <ul class="condiciones">
-            <li>Cotización sujeta a cambios al momento de solicitar reserva.</li>
-            <li>Tarifas sujetas a cambios</li>
-            <li>Precios por persona en acomodación doble</li>
-            <li> Disponibilidad aérea y hotelera sujeta a cambios en el momento de solicitar la reserva </li>
-          </ul>
-
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal del paquete dos -->
-  <div id="modalV2" class="modalV2">
-    <button id="close2">
-      <i class="fa-solid fa-xmark" id="close2"></i>
-    </button>
-    <div id="container-modalV2" class="container-modalV2">
-
-      <div id="infoModal2" class="infoModal2">
-        <div class="travel-card-text2">
-          <div class="title-container">
-            <img src="imagenes/icons/marcador.png" alt="Marcador" class="title-icon">
-            <h2>Miami - Bogotá - Miami</h2>
-          </div>
-          <div class="icons-container">
-            <div class="stars-container">
-              <img src="imagenes/icons/star.png" alt="estrella">
-              <img src="imagenes/icons/star.png" alt="estrella">
-              <img src="imagenes/icons/star.png" alt="estrella">
-              <img src="imagenes/icons/star.png" alt="estrella">
-              <img src="imagenes/icons/star.png" alt="estrella">
-            </div>
-            <div class="line-vertical"></div>
-            <div class="icon-wrapper">
-              <img src="imagenes/icons/wifi2.png" alt="wifi">
-              <img src="imagenes/icons/burguer2.png" alt="burguer">
-              <img src="imagenes/icons/carros2.png" alt="carros">
-              <img src="imagenes/icons/guia2.png" alt="guia">
-              <img src="imagenes/icons/estacionamiento2.png" alt="estacionamiento">
-              <img src="imagenes/icons/avion2.png" class="title-icon" alt="">
-            </div>
-          </div>
-          <div class="travel-card-details">
-            <p>Duración: 6 días / 5 noches</p>
-            <p>Incluye:
-            <ul class="grid-list">
-              <li>Tickets aéreo directo Miami – Bogotá –Miami.</li>
-              <li>Con equipaje en bodega de 20 Kilos.</li>
-              <li>Alojamiento en el Hotel ALOFT AIRPORT, con Desayuno (2 noches).</li>
-              <li>Tiquetes Aéreos Bogotá-Armenia-Bogotá </li>
-              <li>Alojamiento con Desayunos y cenas (3 noches) </li>
-              <li>Traslados Aeropuerto-Hotel-Aeropuerto</li>
-            </ul>
-            </p>
-          </div>
-          <p>El hotel esta a 9.2km del consultorio de la Doctora Elizabeth Baquero,
-            aproximadamente entre 25 a 35 minutos según tráfico en vehículo particular. .</p>
-          <ul class="condiciones">
-            <li>Cotización sujeta a cambios al momento de solicitar reserva. </li>
-            <li>Precios por persona en acomodación doble</li>
-            <li>Tarifas sujetas a cambios</li>
-            <li> Disponibilidad aérea y hotelera sujeta a cambios en el momento de solicitar la reserva </li>
-          </ul>
-
-        </div>
-      </div>
-    </div>
-  </div>
-  <br>
-
-
-  <!-- seccion de sonrisas -->
-  <section class="section-smile">
-    <div>
-      <h2>¡Descubre los cambios en nuestros pacientes! </h2>
-      <p>
-        Haz click en la imagen para ver las transformaciones y resultados sorprendentes.
-      </p>
-      <div class="smile-container">
-        <div class="smile-item">
-          <div class="image-after">
-            <img src="imagenes/turismo/smile/after1.JPG" alt="despues" class="tamaño">
-            <h1>After</h1>
-          </div>
-          <div class="image-before">
-            <img src="imagenes/turismo/smile/before1.JPG" alt="antes" class="tamaño">
-            <h1>Before</h1>
-          </div>
-        </div>
-        <!-- Par de imágenes -->
-        <div class="smile-item">
-          <div class="image-after">
-            <img src="imagenes/turismo/smile/after2.JPG" alt="despues" class="tamaño">
-            <h1>After</h1>
-          </div>
-          <div class="image-before">
-            <img src="imagenes/turismo/smile/before2.JPG" alt="antes" class="tamaño">
-            <h1>Before</h1>
-          </div>
-        </div>
-        <!-- Par de imágenes -->
-        <div class="smile-item">
-          <div class="image-after">
-            <img src="imagenes/turismo/smile/after3.JPG" alt="despues" class="tamaño">
-            <h1>After</h1>
-          </div>
-          <div class="image-before">
-            <img src="imagenes/turismo/smile/before3.JPG" alt="antes" class="tamaño">
-            <h1>Before</h1>
-          </div>
-        </div>
-        <!-- Par de imágenes -->
-        <div class="smile-item">
-          <div class="image-after">
-            <img src="imagenes/turismo/smile/after4.JPG" alt="despues" class="tamaño">
-            <h1>After</h1>
-          </div>
-          <div class="image-before">
-            <img src="imagenes/turismo/smile/before4.JPG" alt="antes" class="tamaño">
-            <h1>Before</h1>
-          </div>
-        </div>
-        <!-- Par de imágenes -->
-        <div class="smile-item">
-          <div class="image-after">
-            <img src="imagenes/turismo/smile/after5.JPG" alt="despues" class="tamaño">
-            <h1>After</h1>
-          </div>
-          <div class="image-before">
-            <img src="imagenes/turismo/smile/before5.JPG" alt="antes" class="tamaño">
-            <h1>Before</h1>
-          </div>
-        </div>
-        <!-- Par de imágenes -->
-        <div class="smile-item">
-          <div class="image-after">
-            <img src="imagenes/turismo/smile/after6.JPG" alt="despues" class="tamaño">
-            <h1>After</h1>
-          </div>
-          <div class="image-before">
-            <img src="imagenes/turismo/smile/before6.JPG" alt="antes" class="tamaño">
-            <h1>Before</h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- seccion de video ig -->
-
-  <!-- Agenda tu cita personalizada -->
-  <section class="Agenda">
-    <h1>Una manera más accesible para tu cuidado dental </h1>
-    <div class="Card-agenda">
-      <div class="infocitas">
-        <h2>1) Agenda una cita</h2>
-        <ul>
-          <li>Programa una consulta con uno de nuestros dentistas para discutir tus necesidades dentales.</li>
-          <li>Proporcionamos un plan de tratamiento y una estimación del costo de la intervención.</li>
-        </ul>
-      </div>
-      <div class="infocitas">
-        <h2>2) Visitanos</h2>
-        <ul>
-          <li>Una vez que decidas seguir adelante, te ayudaremos a planificar tu viaje y a buscar alojamiento.</li>
-          <li>Al llegar recibirás la misma atención de alta calidad que nuestros pacientes locales.</li>
-        </ul>
-      </div>
-      <div class="infocitas">
-        <h2>3) Sonríe y disfruta</h2>
-        <ul>
-          <li>Después del tratamiento, tendrás tiempo de recuperarte y disfrutar de la ciudad antes de volver a casa.
-          </li>
-          <li>Se enviarán las instrucciones postratamiento y recomendaciones para cuidar la nueva sonrisa.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <section class="instagram">
-    <h2>Nuestras visitas</h2>
-    <div class="container-instagram">
-      <!-- Instagram Post 1 -->
-      <blockquote class="instagram-media"
-        data-instgrm-permalink="https://www.instagram.com/p/BxlqPUjHGJR/?utm_source=ig_embed&amp;utm_campaign=loading"
-        data-instgrm-version="14">
-        <div style="padding:16px;">
-          <a href="https://www.instagram.com/p/BxlqPUjHGJR/?utm_source=ig_embed&amp;utm_campaign=loading"
-            target="_blank">
-            <div style="display: flex; flex-direction: row; align-items: center;">
-              <div
-                style="background-color: #F4F4F4; border-radius: 50%; height: 40px; margin-right: 14px; width: 40px;">
-              </div>
-              <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
-                <div
-                  style="background-color: #F4F4F4; border-radius: 4px; height: 14px; margin-bottom: 6px; width: 100px;">
-                </div>
-                <div style="background-color: #F4F4F4; border-radius: 4px; height: 14px; width: 60px;"></div>
-              </div>
-            </div>
-            <div style="padding:19% 0;"></div>
-            <div style="display:block; height:50px; margin:0 auto 12px; width:50px;">
-              <!-- SVG Placeholder -->
-            </div>
-            <div style="padding-top: 8px;">
-              <div
-                style="color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-weight:550; line-height:18px;">
-                Ver esta publicación en Instagram</div>
-            </div>
-            <p
-              style="color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
-              <a href="https://www.instagram.com/p/BxlqPUjHGJR/?utm_source=ig_embed&amp;utm_campaign=loading"
-                style="color:#c9c8cd; text-decoration:none;" target="_blank">Una publicación compartida de [Nombre de
-                Usuario]</a>
-            </p>
-          </a>
-        </div>
-      </blockquote>
-
-      <!-- Instagram Post 2 -->
-      <blockquote class="instagram-media"
-        data-instgrm-permalink="https://www.instagram.com/p/ButlvJxHb5T/?utm_source=ig_embed&amp;utm_campaign=loading"
-        data-instgrm-version="14">
-        <div style="padding:16px;">
-          <a href="https://www.instagram.com/p/ButlvJxHb5T/?utm_source=ig_embed&amp;utm_campaign=loading"
-            target="_blank">
-            <div style="display: flex; flex-direction: row; align-items: center;">
-              <div
-                style="background-color: #F4F4F4; border-radius: 50%; height: 40px; margin-right: 14px; width: 40px;">
-              </div>
-              <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
-                <div
-                  style="background-color: #F4F4F4; border-radius: 4px; height: 14px; margin-bottom: 6px; width: 100px;">
-                </div>
-                <div style="background-color: #F4F4F4; border-radius: 4px; height: 14px; width: 60px;"></div>
-              </div>
-            </div>
-            <div style="padding:19% 0;"></div>
-            <div style="display:block; height:50px; margin:0 auto 12px; width:50px;">
-              <!-- SVG Placeholder -->
-            </div>
-            <div style="padding-top: 8px;">
-              <div
-                style="color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-weight:550; line-height:18px;">
-                Ver esta publicación en Instagram</div>
-            </div>
-            <p
-              style="color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
-              <a href="https://www.instagram.com/p/ButlvJxHb5T/?utm_source=ig_embed&amp;utm_campaign=loading"
-                style="color:#c9c8cd; text-decoration:none;" target="_blank">Una publicación compartida de Odontología
-                Elizabeth Baquero (@odontologiaelizabethbaquero)</a>
-            </p>
-          </a>
-        </div>
-      </blockquote>
-
-      <!-- Instagram Post 3 -->
-      <blockquote class="instagram-media"
-        data-instgrm-permalink="https://www.instagram.com/p/BuuOcctnoFM/?utm_source=ig_embed&amp;utm_campaign=loading"
-        data-instgrm-version="14">
-        <div style="padding:16px;">
-          <a href="https://www.instagram.com/p/BuuOcctnoFM/?utm_source=ig_embed&amp;utm_campaign=loading"
-            target="_blank">
-            <div style="display: flex; flex-direction: row; align-items: center;">
-              <div
-                style="background-color: #F4F4F4; border-radius: 50%; height: 40px; margin-right: 14px; width: 40px;">
-              </div>
-              <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
-                <div
-                  style="background-color: #F4F4F4; border-radius: 4px; height: 14px; margin-bottom: 6px; width: 100px;">
-                </div>
-                <div style="background-color: #F4F4F4; border-radius: 4px; height: 14px; width: 60px;"></div>
-              </div>
-            </div>
-            <div style="padding:19% 0;"></div>
-            <div style="display:block; height:50px; margin:0 auto 12px; width:50px;">
-              <!-- SVG Placeholder -->
-            </div>
-            <div style="padding-top: 8px;">
-              <div
-                style="color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-weight:550; line-height:18px;">
-                Ver esta publicación en Instagram</div>
-            </div>
-            <p
-              style="color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
-              <a href="https://www.instagram.com/p/BuuOcctnoFM/?utm_source=ig_embed&amp;utm_campaign=loading"
-                style="color:#c9c8cd; text-decoration:none;" target="_blank">Una publicación compartida de [Nombre de
-                Usuario]</a>
-            </p>
-          </a>
-        </div>
-      </blockquote>
-
-    </div>
-
-  </section>
-  <!-- Sección de Comentarios -->
-  <section class="comentarios">
-    <h2>Sus opiniones nos importan</h2>
-    <!-- Swiper -->
-    <div class="swiper mySwiper2">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide card_nosotros">
-          <div class="card-content">
-            <div class="image">
-              <img src="imagenes/turismo/comentarios/janeth.png" alt="" />
-            </div>
-
-            <div class="name-profesion">
-              <span class="name">Janeth Anacona</span>
-              <span class="profesion">Excelente servicio, personal idóneo y muy capacitado... Muchas gracias por mejorar
-                nuestra sonrisa.
-              </span>
-            </div>
-            <div class="rating2">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-
-          </div>
-        </div>
-        <div class="swiper-slide card_nosotros">
-          <div class="card-content">
-            <div class="image">
-              <img src="imagenes/turismo/comentarios/yudy.png" alt="" />
-            </div>
-
-            <div class="name-profesion">
-              <span class="name">Yudy Espinel</span>
-              <span class="profesion">Doctora Paula sin palabras, súper amable te explica todo detallado y muy dispuesta
-                a pesar que siempre tiene mucho trabajo.</span>
-            </div>
-            <div class="rating2">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-
-          </div>
-        </div>
-        <div class="swiper-slide card_nosotros">
-          <div class="card-content">
-            <div class="image">
-              <img src="imagenes/turismo/comentarios/carolina.png" alt="" />
-            </div>
-
-            <div class="name-profesion">
-              <span class="name">Carolina Avila</span>
-              <span class="profesion">Me encanta el servicio de la odontología Elizabeth Baquero y de la Dra
-                Paula.</span>
-            </div>
-            <div class="rating2">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-
-          </div>
-        </div>
-        <div class="swiper-slide card_nosotros">
-          <div class="card-content">
-            <div class="image">
-              <img src="imagenes/turismo/comentarios/ofelia.png" alt="" />
-            </div>
-
-            <div class="name-profesion">
-              <span class="name">Ofelia Reyes</span>
-              <span class="profesion">Excelente servicio y atención, venimos desde Panamá en busca de calidad y lo
-                encontramos estamos muy agradecidos</span>
-            </div>
-            <div class="rating2">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-
-          </div>
-        </div>
-        <div class="swiper-slide card_nosotros">
-          <div class="card-content">
-            <div class="image">
-              <img src="imagenes/turismo/comentarios/andres.png" alt="" />
-            </div>
-
-            <div class="name-profesion">
-              <span class="name">Andres Munar</span>
-              <span class="profesion">Estas mujeres me dejaron sin palabras!!! Desde que llege todas me trataron con
-                mucho cariño y me explicaron todo en cada paso.</span>
-            </div>
-            <div class="rating2">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="swiper-slide card_nosotros">
-          <div class="card-content">
-            <div class="image">
-              <img src="imagenes/turismo/comentarios/hellen.png" alt="" />
-            </div>
-
-            <div class="name-profesion">
-              <span class="name">Hellen</span>
-              <span class="profesion">Las doctoras son muy queridas y profesionales </span>
-            </div>
-            <div class="rating2">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-
 
           </div>
         </div>
       </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
     </div>
-  </section>
 
+    </section>
+    
 
-  <!-- Seccion de equipo dental -->
-  <section class="section-info">
-    <img src="imagenes/turismo/equipodental.jpeg" alt="Equipo Dental">
-    <div class="text">
-      <h2>Equipo Dental</h2>
-      <p>Nuestros equipos de última tecnología y materiales biocompatibles de última generación nos permiten ofrecer
-        tratamientos efectivos y estables a largo plazo. Contamos con equipo de radiografía periapical, scanner, cámara
-        intraoral, entre otras tecnologías de punta, para hacer de la experiencia odontológica la más cómoda.</p>
-      <h3>Servicios Ofrecidos</h3>
-      <p>En nuestra clínica, ofrecemos una amplia gama de servicios dentales que incluyen:</p>
-      <ul>
-        <li>Revisiones y limpiezas dentales</li>
-        <li>Tratamientos de ortodoncia</li>
-        <li>Implantes dentales</li>
-        <li>Tratamientos de endodoncia</li>
-        <li>Cirugía oral</li>
-        <li>Estética dental</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- afiliacion -->
-  <section class="section-afiliacion">
-    <div class="section-image">
-      <img src="imagenes/turismo/asociacion.png" alt="">
-    </div>
-    <div class="section-text">
-      <h1>Afiliaciones a Asociaciones Profesionales</h1>
-      <p>
-        Federación colombiana de Odontólogos
-      </p>
-    </div>
-  </section>
-
-  <!-- Garantía y politicas -->
-  <section class="policy-section">
-    <h1>Garantías y Políticas de Tratamiento</h1>
-    <p>
-
-      <strong>Odontología Elizabeth Baquero</strong>, se compromete a velar por el bienestar físico y mental de sus
-      empleados y contratistas; así como la seguridad de sus usuarios y visitantes; de igual forma, establece dentro de
-      sus prioridades el control de los riesgos, el mejoramiento continuo y el fomento de un ambiente de trabajo seguro,
-      basado en el cumplimiento de los requisitos legales y destinando los recursos humanos, tecnológicos y financieros
-      necesarios para tal fin.
-    </p>
-  </section>
-  <footer>
-    <div class="item_footer">
-      <h4 class="list__button--click">MENÚ</h4>
-      <ul>
-        <li><a href="nosotros.html">Nosotros</a></li>
-        <li><a href="promociones.html">Promociones</a></li>
-        <li>
-          <a href="https://api.whatsapp.com/send?phone=5712731655" target="_blank">Urgencias</a>
-        </li>
-        <li><a href="#servicios">Tratamientos</a></li>
-        <li><a href="#ubicacion">Ubicación</a></li>
-      </ul>
-    </div>
-    <div class="item_footer">
-      <h4 class="list__button--click">ESPECIALIDADES Y TRATAMIENTOS</h4>
-      <div class="sub_item">
-        <ul>
-          <li>
-            <a href="https://api.whatsapp.com/send?phone=5712731655" target="_blank">Urgencias dentales</a>
-          </li>
-          <li><a href="#servicios">Blanqueamiento dental</a></li>
-          <li><a href="#servicios">Limpieza dental</a></li>
-          <li><a href="#todo">Ortodoncia</a></li>
-        </ul>
-        <ul>
-          <li><a href="#todo">Implantes dentales</a></li>
-          <li><a href="#todo">Diseño de sonrisa</a></li>
-          <li><a href="#todo">Radiografías</a></li>
-          <li><a href="#todo">Endodoncia</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="item_footer">
-      <h4>REDES SOCIALES</h4>
-      <ul>
-        <li>
-          <a href="https://www.facebook.com/dentosaludcolombia/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/odontologiaelizabethbaquero/?utm_medium=copy_link" target="_blank"><i
-              class="fab fa-instagram"></i></a>
-        </li>
-        <li>
-          <a href="https://api.whatsapp.com/send?phone=5712731655" target="_blank"><i class="fab fa-whatsapp"></i></a>
-        </li>
-      </ul>
+    <!-- seccion de sonrisas -->
+    <section class="section-smile">
       <div>
-        <p>Políticas de Privacidad Términos y Condiciones</p>
+        <h2>¡Descubre los cambios en nuestros pacientes! </h2>
         <p>
-          © 2022 Todos los derechos reservados Odontología Dra.Elizabeth
-          Baquero S.A.S
+          Haz click en la imagen para ver las transformaciones y resultados sorprendentes.
+        </p>
+        <div class="smile-container">
+          <div class="smile-item">
+            <div class="image-after">
+              <img src="imagenes/turismo/smile/after1.JPG" alt="despues" class="tamaño">
+              <h1>After</h1>
+            </div>
+            <div class="image-before">
+              <img src="imagenes/turismo/smile/before1.JPG" alt="antes" class="tamaño">
+              <h1>Before</h1>
+            </div>
+          </div>
+          <!-- Par de imágenes -->
+          <div class="smile-item">
+            <div class="image-after">
+              <img src="imagenes/turismo/smile/after2.JPG" alt="despues" class="tamaño">
+              <h1>After</h1>
+            </div>
+            <div class="image-before">
+              <img src="imagenes/turismo/smile/before2.JPG" alt="antes" class="tamaño">
+              <h1>Before</h1>
+            </div>
+          </div>
+          <!-- Par de imágenes -->
+          <div class="smile-item">
+            <div class="image-after">
+              <img src="imagenes/turismo/smile/after3.JPG" alt="despues" class="tamaño">
+              <h1>After</h1>
+            </div>
+            <div class="image-before">
+              <img src="imagenes/turismo/smile/before3.JPG" alt="antes" class="tamaño">
+              <h1>Before</h1>
+            </div>
+          </div>
+          <!-- Par de imágenes -->
+          <div class="smile-item">
+            <div class="image-after">
+              <img src="imagenes/turismo/smile/after4.JPG" alt="despues" class="tamaño">
+              <h1>After</h1>
+            </div>
+            <div class="image-before">
+              <img src="imagenes/turismo/smile/before4.JPG" alt="antes" class="tamaño">
+              <h1>Before</h1>
+            </div>
+          </div>
+          <!-- Par de imágenes -->
+          <div class="smile-item">
+            <div class="image-after">
+              <img src="imagenes/turismo/smile/after5.JPG" alt="despues" class="tamaño">
+              <h1>After</h1>
+            </div>
+            <div class="image-before">
+              <img src="imagenes/turismo/smile/before5.JPG" alt="antes" class="tamaño">
+              <h1>Before</h1>
+            </div>
+          </div>
+          <!-- Par de imágenes -->
+          <div class="smile-item">
+            <div class="image-after">
+              <img src="imagenes/turismo/smile/after6.JPG" alt="despues" class="tamaño">
+              <h1>After</h1>
+            </div>
+            <div class="image-before">
+              <img src="imagenes/turismo/smile/before6.JPG" alt="antes" class="tamaño">
+              <h1>Before</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- seccion de video ig -->
+
+    <!-- Agenda tu cita personalizada -->
+    <section class="Agenda">
+      <h1>Una manera más accesible para tu cuidado dental </h1>
+      <div class="Card-agenda">
+        <div class="infocitas">
+          <h2>1. Agenda una cita</h2>
+          <ul>
+            <li>Programa una consulta con uno de nuestros dentistas para discutir tus necesidades dentales.</li>
+            <li>Proporcionamos un plan de tratamiento y una estimación del costo de la intervención.</li>
+          </ul>
+        </div>
+        <div class="infocitas">
+          <h2>2. Visitanos</h2>
+          <ul>
+            <li>Una vez que decidas seguir adelante, te ayudaremos a planificar tu viaje y a buscar alojamiento.</li>
+            <li>Al llegar recibirás la misma atención de alta calidad que nuestros pacientes locales.</li>
+          </ul>
+        </div>
+        <div class="infocitas">
+          <h2>3. Sonríe y disfruta</h2>
+          <ul>
+            <li>Después del tratamiento, tendrás tiempo de recuperarte y disfrutar de la ciudad antes de volver a casa.
+            </li>
+            <li>Se enviarán las instrucciones postratamiento y recomendaciones para cuidar la nueva sonrisa.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="instagram">
+      <h2>Nuestras visitas</h2>
+      <div class="container-instagram">
+        <!-- Instagram Post 1 -->
+        <blockquote class="instagram-media"
+          data-instgrm-permalink="https://www.instagram.com/p/BxlqPUjHGJR/?utm_source=ig_embed&amp;utm_campaign=loading"
+          data-instgrm-version="14">
+          <div style="padding:16px;">
+            <a href="https://www.instagram.com/p/BxlqPUjHGJR/?utm_source=ig_embed&amp;utm_campaign=loading"
+              target="_blank">
+              <div style="display: flex; flex-direction: row; align-items: center;">
+                <div
+                  style="background-color: #F4F4F4; border-radius: 50%; height: 40px; margin-right: 14px; width: 40px;">
+                </div>
+                <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                  <div
+                    style="background-color: #F4F4F4; border-radius: 4px; height: 14px; margin-bottom: 6px; width: 100px;">
+                  </div>
+                  <div style="background-color: #F4F4F4; border-radius: 4px; height: 14px; width: 60px;"></div>
+                </div>
+              </div>
+              <div style="padding:19% 0;"></div>
+              <div style="display:block; height:50px; margin:0 auto 12px; width:50px;">
+                <!-- SVG Placeholder -->
+              </div>
+              <div style="padding-top: 8px;">
+                <div
+                  style="color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-weight:550; line-height:18px;">
+                  Ver esta publicación en Instagram</div>
+              </div>
+              <p
+                style="color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                <a href="https://www.instagram.com/p/BxlqPUjHGJR/?utm_source=ig_embed&amp;utm_campaign=loading"
+                  style="color:#c9c8cd; text-decoration:none;" target="_blank">Una publicación compartida de [Nombre de
+                  Usuario]</a>
+              </p>
+            </a>
+          </div>
+        </blockquote>
+
+        <!-- Instagram Post 2 -->
+        <blockquote class="instagram-media"
+          data-instgrm-permalink="https://www.instagram.com/p/ButlvJxHb5T/?utm_source=ig_embed&amp;utm_campaign=loading"
+          data-instgrm-version="14">
+          <div style="padding:16px;">
+            <a href="https://www.instagram.com/p/ButlvJxHb5T/?utm_source=ig_embed&amp;utm_campaign=loading"
+              target="_blank">
+              <div style="display: flex; flex-direction: row; align-items: center;">
+                <div
+                  style="background-color: #F4F4F4; border-radius: 50%; height: 40px; margin-right: 14px; width: 40px;">
+                </div>
+                <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                  <div
+                    style="background-color: #F4F4F4; border-radius: 4px; height: 14px; margin-bottom: 6px; width: 100px;">
+                  </div>
+                  <div style="background-color: #F4F4F4; border-radius: 4px; height: 14px; width: 60px;"></div>
+                </div>
+              </div>
+              <div style="padding:19% 0;"></div>
+              <div style="display:block; height:50px; margin:0 auto 12px; width:50px;">
+                <!-- SVG Placeholder -->
+              </div>
+              <div style="padding-top: 8px;">
+                <div
+                  style="color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-weight:550; line-height:18px;">
+                  Ver esta publicación en Instagram</div>
+              </div>
+              <p
+                style="color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                <a href="https://www.instagram.com/p/ButlvJxHb5T/?utm_source=ig_embed&amp;utm_campaign=loading"
+                  style="color:#c9c8cd; text-decoration:none;" target="_blank">Una publicación compartida de Odontología
+                  Elizabeth Baquero (@odontologiaelizabethbaquero)</a>
+              </p>
+            </a>
+          </div>
+        </blockquote>
+
+        <!-- Instagram Post 3 -->
+        <blockquote class="instagram-media"
+          data-instgrm-permalink="https://www.instagram.com/p/BuuOcctnoFM/?utm_source=ig_embed&amp;utm_campaign=loading"
+          data-instgrm-version="14">
+          <div style="padding:16px;">
+            <a href="https://www.instagram.com/p/BuuOcctnoFM/?utm_source=ig_embed&amp;utm_campaign=loading"
+              target="_blank">
+              <div style="display: flex; flex-direction: row; align-items: center;">
+                <div
+                  style="background-color: #F4F4F4; border-radius: 50%; height: 40px; margin-right: 14px; width: 40px;">
+                </div>
+                <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                  <div
+                    style="background-color: #F4F4F4; border-radius: 4px; height: 14px; margin-bottom: 6px; width: 100px;">
+                  </div>
+                  <div style="background-color: #F4F4F4; border-radius: 4px; height: 14px; width: 60px;"></div>
+                </div>
+              </div>
+              <div style="padding:19% 0;"></div>
+              <div style="display:block; height:50px; margin:0 auto 12px; width:50px;">
+                <!-- SVG Placeholder -->
+              </div>
+              <div style="padding-top: 8px;">
+                <div
+                  style="color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-weight:550; line-height:18px;">
+                  Ver esta publicación en Instagram</div>
+              </div>
+              <p
+                style="color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                <a href="https://www.instagram.com/p/BuuOcctnoFM/?utm_source=ig_embed&amp;utm_campaign=loading"
+                  style="color:#c9c8cd; text-decoration:none;" target="_blank">Una publicación compartida de [Nombre de
+                  Usuario]</a>
+              </p>
+            </a>
+          </div>
+        </blockquote>
+
+      </div>
+
+    </section>
+    <!-- Sección de Comentarios -->
+    <section class="comentarios">
+      <h2>Sus opiniones nos importan</h2>
+      <!-- Swiper -->
+      <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide card_nosotros">
+            <div class="card-content">
+              <div class="image">
+                <img src="imagenes/turismo/comentarios/janeth.png" alt="" />
+              </div>
+
+              <div class="name-profesion">
+                <span class="name">Janeth Anacona</span>
+                <span class="profesion">Excelente servicio, personal idóneo y muy capacitado... Muchas gracias por mejorar
+                  nuestra sonrisa.
+                </span>
+              </div>
+              <div class="rating2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+
+            </div>
+          </div>
+          <div class="swiper-slide card_nosotros">
+            <div class="card-content">
+              <div class="image">
+                <img src="imagenes/turismo/comentarios/yudy.png" alt="" />
+              </div>
+
+              <div class="name-profesion">
+                <span class="name">Yudy Espinel</span>
+                <span class="profesion">Doctora Paula sin palabras, súper amable te explica todo detallado y muy dispuesta
+                  a pesar que siempre tiene mucho trabajo.</span>
+              </div>
+              <div class="rating2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+
+            </div>
+          </div>
+          <div class="swiper-slide card_nosotros">
+            <div class="card-content">
+              <div class="image">
+                <img src="imagenes/turismo/comentarios/carolina.png" alt="" />
+              </div>
+
+              <div class="name-profesion">
+                <span class="name">Carolina Avila</span>
+                <span class="profesion">Me encanta el servicio de la odontología Elizabeth Baquero y de la Dra
+                  Paula.</span>
+              </div>
+              <div class="rating2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+
+            </div>
+          </div>
+          <div class="swiper-slide card_nosotros">
+            <div class="card-content">
+              <div class="image">
+                <img src="imagenes/turismo/comentarios/ofelia.png" alt="" />
+              </div>
+
+              <div class="name-profesion">
+                <span class="name">Ofelia Reyes</span>
+                <span class="profesion">Excelente servicio y atención, venimos desde Panamá en busca de calidad y lo
+                  encontramos estamos muy agradecidos</span>
+              </div>
+              <div class="rating2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+
+            </div>
+          </div>
+          <div class="swiper-slide card_nosotros">
+            <div class="card-content">
+              <div class="image">
+                <img src="imagenes/turismo/comentarios/andres.png" alt="" />
+              </div>
+
+              <div class="name-profesion">
+                <span class="name">Andres Munar</span>
+                <span class="profesion">Estas mujeres me dejaron sin palabras!!! Desde que llege todas me trataron con
+                  mucho cariño y me explicaron todo en cada paso.</span>
+              </div>
+              <div class="rating2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="swiper-slide card_nosotros">
+            <div class="card-content">
+              <div class="image">
+                <img src="imagenes/turismo/comentarios/hellen.png" alt="" />
+              </div>
+
+              <div class="name-profesion">
+                <span class="name">Hellen</span>
+                <span class="profesion">Las doctoras son muy queridas y profesionales </span>
+              </div>
+              <div class="rating2">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- Seccion de equipo dental -->
+    <section class="section-info">
+      <img src="imagenes/turismo/equipodental.jpeg" alt="Equipo Dental">
+      <div class="text">
+        <h2>Equipo Dental</h2>
+        <p>Nuestros equipos de última tecnología y materiales biocompatibles de última generación nos permiten ofrecer
+          tratamientos efectivos y estables a largo plazo. Contamos con equipo de radiografía periapical, scanner, cámara
+          intraoral, entre otras tecnologías de punta, para hacer de la experiencia odontológica la más cómoda.</p>
+        <h3>Servicios Ofrecidos</h3>
+        <p>En nuestra clínica, ofrecemos una amplia gama de servicios dentales que incluyen:</p>
+        <ul>
+          <li>Revisiones y limpiezas dentales</li>
+          <li>Tratamientos de ortodoncia</li>
+          <li>Implantes dentales</li>
+          <li>Tratamientos de endodoncia</li>
+          <li>Cirugía oral</li>
+          <li>Estética dental</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- afiliacion -->
+    <section class="section-afiliacion">
+      <div class="section-image">
+        <img src="imagenes/turismo/asociacion.png" alt="">
+      </div>
+      <div class="section-text">
+        <h1>Afiliaciones a Asociaciones Profesionales</h1>
+        <p>
+          Federación colombiana de Odontólogos
         </p>
       </div>
-    </div>
-    <div class="item_footer">
+    </section>
+
+    <!-- Garantía y politicas -->
+    <section class="policy-section">
+      <h1>Garantías y Políticas de Tratamiento</h1>
       <p>
-        Desarrollado por
-        <a href="https://dentarios.com.mx/programacion.php" target="_blank">
-          Agencia de Marketing Dentarios</a>
-        © 2022
+
+        <strong>Odontología Elizabeth Baquero</strong>, se compromete a velar por el bienestar físico y mental de sus
+        empleados y contratistas; así como la seguridad de sus usuarios y visitantes; de igual forma, establece dentro de
+        sus prioridades el control de los riesgos, el mejoramiento continuo y el fomento de un ambiente de trabajo seguro,
+        basado en el cumplimiento de los requisitos legales y destinando los recursos humanos, tecnológicos y financieros
+        necesarios para tal fin.
+      </p>
+    </section>
+
+  
+
+</main>
+  <div>
+    <button id="backToTop" title="Volver al inicio" style="display: block;"><i class="fas fa-chevron-up"></i><button>
+  </div>
+
+  <div>
+    <a  target="_blank" class="whatsapp-button" href="https://api.whatsapp.com/send?phone=573204966930">
+        <img src="imagenes/icons/urgencias-2.png" alt="WhatsApp" title="Urgencias">
+    </a>
+  </div>
+<footer>
+  <div class="item_footer">
+    <h4 class="list__button--click">MENÚ</h4>
+    <ul>
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a href="promociones.html">Promociones</a></li>
+      <li>
+        <a href="https://api.whatsapp.com/send?phone=5712731655" target="_blank">Urgencias</a>
+      </li>
+      <li><a href="#servicios">Tratamientos</a></li>
+      <li><a href="#ubicacion">Ubicación</a></li>
+    </ul>
+  </div>
+  <div class="item_footer">
+    <h4 class="list__button--click">ESPECIALIDADES Y TRATAMIENTOS</h4>
+    <div class="sub_item">
+      <ul>
+        <li>
+          <a href="https://api.whatsapp.com/send?phone=5712731655" target="_blank">Urgencias dentales</a>
+        </li>
+        <li><a href="#servicios">Blanqueamiento dental</a></li>
+        <li><a href="#servicios">Limpieza dental</a></li>
+        <li><a href="#todo">Ortodoncia</a></li>
+      </ul>
+      <ul>
+        <li><a href="#todo">Implantes dentales</a></li>
+        <li><a href="#todo">Diseño de sonrisa</a></li>
+        <li><a href="#todo">Radiografías</a></li>
+        <li><a href="#todo">Endodoncia</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="item_footer">
+    <h4>REDES SOCIALES</h4>
+    <ul>
+      <li>
+        <a href="https://www.facebook.com/dentosaludcolombia/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/odontologiaelizabethbaquero/?utm_medium=copy_link" target="_blank"><i
+            class="fab fa-instagram"></i></a>
+      </li>
+      <li>
+        <a href="https://api.whatsapp.com/send?phone=5712731655" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </li>
+    </ul>
+    <div>
+      <p>Políticas de Privacidad Términos y Condiciones</p>
+      <p>
+        © 2025 Todos los derechos reservados Odontología Dra.Elizabeth
+        Baquero S.A.S
       </p>
     </div>
-  </footer>
-
+  </div>
+  <div class="item_footer">
+    <p>
+      Desarrollado por
+      <a href="https://dentarios.com.mx/programacion.php" target="_blank">
+        Agencia de Marketing Dentarios</a>
+      © 2025
+    </p>
+  </div>
+</footer>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       const toggleButton = document.getElementById('toggleButton');
@@ -1276,14 +1302,13 @@
         }
       });
     });
-
   </script>
+
   <script src="js/viaje.js"></script>
   <script async src="//www.instagram.com/embed.js"></script>
-
-  </script>
   <script src="js/index.js"></script>
   <script src="js/slider.js"></script>
+  <script src="js/menu.js"></script>
   <script>
     const leftArrow = document.querySelector('.arrow-left');
     const rightArrow = document.querySelector('.arrow-right');
@@ -1384,9 +1409,9 @@
       },
     });
   </script>
-  <?php
-        include("email.php");
-        ?>
+
+
+  
 </body>
 
 </html>

@@ -1,0 +1,494 @@
+/*---------------------------VERSION ESCRITORIO-----------------------------------*/
+@media screen and (min-width: 928px){
+
+@media screen and (max-width: 480px) {
+
+    
+    .logo{
+        color: #fff;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+    .boton-contacto{
+        display: flex;
+        width: 100%;
+    }
+
+    .img-logo img{
+        height: 45px;
+        padding-top: 7px;
+    }
+
+    .img-logo{
+        display: flex;
+        justify-content: center;
+        padding-top: 8px;
+    }
+
+    .boton-contacto{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedor-boton-contacto{
+        width: 300px;
+    }
+
+
+    #hamburger-btn {
+        background: none;
+        margin-left: 9px;
+        font-size: 30px;
+        border-radius: 5px;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        margin-top: -44px;
+        position: fixed;
+        
+    }
+    .menu {
+        position: relative;
+        display: flex;
+        top: 8px;
+        background: #fff;
+        justify-content: center;
+    }
+    .menu a {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    #menu {
+        margin-bottom: 20px;
+        margin-top: 52px;
+        height: 100vh;
+    }
+    header {
+        position: fixed;
+        z-index: 98;
+        background-color: #009ec0;
+        width: 100%;
+        height: 62px;
+    }
+    .hidden {
+        display: none;
+    }
+    header p {
+        margin-top: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        background-color: #145dbd;
+    }
+    .boton-menu {
+        width: 300px;
+    }
+
+    #logo{
+        display: none;
+    }
+    
+}
+
+@media (min-width: 481px) and (max-width: 927px) {
+
+  
+    .contendor-boton-contacto{
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .logo{
+        color: #fff;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    .boton-contacto{
+        display: flex;
+        width: 100%;
+    }
+
+    .img-logo img{
+        height: 45px;
+        padding-top: 7px;
+    }
+
+    .img-logo{
+        display: flex;
+        justify-content: center;
+        padding-top: 6px;
+    }
+
+    .boton-contacto{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedor-boton-contacto{
+        width: 300px;
+    }
+
+
+    #hamburger-btn {
+        background: none;
+        margin-left: 9px;
+        font-size: 30px;
+        border-radius: 5px;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        margin-top: -44px;
+        position: fixed;
+    }
+    .menu {
+        position: relative;
+        display: flex;
+        top: 8px;
+        background: #fff;
+        justify-content: center;
+    }
+    .menu a {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    #menu {
+        margin-bottom: 20px;
+        margin-top: 22px;
+        height: 100vh;
+    }
+    header {
+        position: fixed;
+        z-index: 98;
+        background-color: #009ec0;
+        width: 100%;
+        height: 62px;
+    }
+    .hidden {
+        display: none;
+    }
+    header p {
+        margin-top: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        background-color: #145dbd;
+    }
+    .boton-menu {
+        width: 300px;
+    }
+
+    #logo{
+        display: none;
+    }
+}
+
+@media (min-width: 928px) {
+    
+    .enlaces {
+        display: flex;
+    }
+    .logo{
+        color: #fff;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: flex;
+        align-items: center;
+    }
+
+    .img-logo img{
+        height: 40px;
+    }
+
+    .img-logo{
+        display: flex;
+    }
+
+    .boton-contacto{
+        display: flex;
+    }
+
+
+    .menu {
+        background-color: #009ec0;
+        text-align: center;
+        padding: 15px 0;
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+    }
+    .menu a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 30px;
+        margin: 0 10px;
+        border-radius: 5px;
+        font-weight: 600;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .menu a:hover {
+        background-color: #145dbd;
+    }
+
+
+    #boton-menu-contacto{
+        background-color: cadetblue;
+    }
+
+    #boton-menu-contacto:hover {
+        color: black;
+    }
+
+    header button {
+        display: none;
+    }
+    header nav {
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    #logo-celular{
+        display: none;
+    }
+
+    #logo-menu-cel{
+        display: none;
+    }
+}
+
+
+#logo a{
+    padding: 0;
+}
+
+#logo-celular{
+    padding: 0;
+}
+
+#logo-menu-cel .img-logo img{
+    height: 55px;
+}
+
+
+#boton-menu-contacto {
+    background-color: rgb(214, 185, 20);
+}
+
+#logo a{
+    transition: ease-in-out 0.2s;
+}
+
+#logo a:hover{
+    background-color: #00000000;
+    transform: scale(1.1);
+}
+
+
+/*--------------------------------Boton desplegable ver más----------------------------------------*/
+
+
+#sub-menu a{
+    margin: 0;
+    padding: 0;
+}
+
+#sub-menu .desplegable-lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sub-menu a p{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   text-align: left;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border-radius: 5px;
+}
+
+#sub-menu a p:hover{
+    background-color: #145dbd;
+    color: white;
+}
+
+#sub-menu a p{
+    color: white;    
+    transition: ease-in-out 0.2s;
+}
+
+#sub-menu a p:hover{
+    color: white
+}
+
+#sub-menu a:hover{
+    background-color: #00000000;
+}
+
+#sub-menu .desplegable-lista {
+    display: none; /* Inicialmente ocultamos el submenú */
+    position: absolute; /* Para que se posicione debajo del botón "Más..." */
+    top: 100%; /* Coloca el submenú justo debajo del contenedor */
+    background-color: #1d334a; /* Fondo blanco para el submenú */
+    z-index: 100; /* Asegura que esté por encima de otros elementos */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+    border-bottom: solid 1px white;
+    border-radius: 0 0 5px 5px;
+}
+
+@media (min-width: 928px) and (max-width: 1008px) {
+    #sub-menu .desplegable-lista {
+        left: 64%;
+    }
+}
+
+@media (min-width: 1008px) and (max-width: 1088px) {
+    #sub-menu .desplegable-lista {
+        left: 64%;
+    }
+}
+
+@media (min-width: 1088px) and (max-width: 1168px) {
+    #sub-menu .desplegable-lista {
+        left: 63%;
+    }
+}
+
+@media (min-width: 1168px) and (max-width: 1248px) {
+    #sub-menu .desplegable-lista {
+        left: 62%;
+    }
+}
+
+@media (min-width: 1248px) and (max-width: 1328px) {
+    #sub-menu .desplegable-lista {
+        left: 61%;
+    }
+}
+
+@media (min-width: 1328px) and (max-width: 1408px) {
+    #sub-menu .desplegable-lista {
+        left: 61%;
+    }
+}
+
+@media (min-width: 1408px) and (max-width: 1488px) {
+    #sub-menu .desplegable-lista {
+        left: 61%;
+    }
+}
+
+@media (min-width: 1488px) and (max-width: 1568px) {
+    #sub-menu .desplegable-lista {
+        left: 60%;
+    }
+}
+
+@media (min-width: 1568px) and (max-width: 1648px) {
+    #sub-menu .desplegable-lista {
+        left: 59%;
+    }
+}
+
+@media (min-width: 1648px) and (max-width: 1728px) {
+    #sub-menu .desplegable-lista {
+        left: 59%;
+    }
+}
+
+@media (min-width: 1728px) and (max-width: 1808px) {
+    #sub-menu .desplegable-lista {
+        left: 59%;
+    }
+}
+
+@media (min-width: 1808px) and (max-width: 1888px) {
+    #sub-menu .desplegable-lista {
+        left: 58%;
+    }
+}
+
+@media (min-width: 1888px) and (max-width: 1928px) {
+    #sub-menu .desplegable-lista {
+        left: 58%;
+    }
+}
+
+@media (min-width: 1929px) {
+    #sub-menu .desplegable-lista {
+        left: 56%;
+    }
+    
+}
+
+#mas-boton {
+    display: inline-block; /* Asegura que el enlace se comporte como un elemento en línea */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+#mas-boton .boton-menu {
+    cursor: pointer; /* Cambia el cursor a una mano cuando pasas sobre el botón */
+}
+
+
+
+/*--------------------------------Boton desplegable ver más----------------------------------------*/
+
+#hamburger-btn{
+   border: none;
+}
+
+#sub-menu .desplegable-lista {
+    display: none; /* Inicialmente ocultamos el submenú */
+}
+
+#mas-boton {
+    cursor: pointer; /* Aseguramos que el botón tiene la mano */
+}
+
+#mas-boton .capa-mas-boton{
+    background-color: red;
+    z-index: -1000;
+}
+
+
+/*-----------------------quieries para boton submenu responsive-----------------------*/
+@media screen and (max-width: 928px) {
+    #mas-boton {
+        background-color: #145dbd;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .contenedor-mas-boton{
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+        width: 100%;
+    }
+
+    #boton-menu-contacto {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    #sub-menu .desplegable-lista{
+        width: 100vw;
+        height: 100vh;
+    }
+}
+/*-----------------------quieries para boton submenu responsive-----------------------*/
+
+    header .logo{
+        margin-right: 5vw;
+    }
+}
+/*---------------------------VERSION ESCRITORIO-----------------------------------*/

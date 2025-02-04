@@ -105,48 +105,7 @@ header {
   transform: rotate(-140deg);
   top: 10px;
 }
-.logo_nav {
-  width: 20%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-top: 10px;
-  padding-left: 40px;
-  padding-bottom: 10px;
-}
-.logo_nav a img {
-  max-width: 100%;
-}
-.menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-evenly;
-  width: 100%;
-  padding-right: 0px;
-  z-index: 50;
-}
-.menu li {
-  list-style: none;
-}
-.menu li a {
-  text-decoration: none;
-  font-size: 20px;
-  color: #002c89;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-.urgencias {
-  color: #feee00 !important;
-}
+
 
 .slide_contenedor {
   max-width: 100%;
@@ -156,7 +115,6 @@ header {
   position: relative;
   overflow: hidden;
   /*margin: auto;*/
-  margin: 20px auto 20px auto;
   background-image: url(../imagenes/fondoatras.png);
   background-size: cover;
 }
@@ -228,12 +186,7 @@ header {
   display: inline-block;
   margin-bottom: 8px;
 }
-.active {
-  color: #fff;
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-}
+
 .fade {
   -webkit-animation: fade;
   animation: fade;
@@ -655,23 +608,7 @@ header {
   margin: auto;
   text-align: center;
 }
-.forma_de_pago h2 {
-  color: #feee00;
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 20px;
-  color: #cbc71b;
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-  display: block;
-  width: 85%;
-  background-color: #002c89;
-  margin: 50px auto 20px auto;
-  padding: 7px 0px;
-  border-radius: 15px;
-}
+
 .img_pago {
   max-width: 100%;
   margin-bottom: 20px;
@@ -1059,14 +996,7 @@ footer {
   color: #fff;
   font-size: 20px;
 }
-.icono_principal {
-  position: fixed;
-  bottom: 5vh;
-  right: 1em;
-  z-index: 5;
-  animation: pulse 2s infinite;
-  border-radius: 50%;
-}
+
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -1081,6 +1011,19 @@ footer {
     transform: scale(1);
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.4);
     border-radius: 50%;
+  }
+}
+
+@keyframes pulse-a {
+  0% {
+    transform: scale(1);
+  }
+
+  70% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 .contactos {
@@ -1354,35 +1297,7 @@ footer {
   .logo_nav img {
     max-width: 45%;
   }
-  .menu {
-    position: absolute;
-    z-index: 999;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: flex-start;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    width: auto;
-    padding-right: 0px;
-    -webkit-transform: translateY(-150%);
-    -ms-transform: translateY(-150%);
-    transform: translateY(-150%);
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-    width: 100%;
-    background-color: #009ec0;
-    height: 100vh;
-    margin-top: -100px;
-  }
+  
   .mostrar {
     -webkit-transform: translateY(60%);
     -ms-transform: translateY(60%);
@@ -1429,7 +1344,7 @@ footer {
   }
   .miSlider a {
     position: absolute;
-    z-index: 99;
+    z-index: 97;
     bottom: 2%;
     left: 10%;
     background: transparent;
@@ -1491,7 +1406,7 @@ footer {
   }
   .tratamientos h2 {
     color: #4f4e4e;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
   }
@@ -1567,7 +1482,7 @@ footer {
   }
   .list__item {
     list-style: none;
-    max-width: 300px;
+    max-width: 250px;
     overflow: hidden;
     margin: auto;
   }
@@ -1839,13 +1754,7 @@ footer {
   .sub_item ul {
     margin: 20px auto;
   }
-  .icono_principal {
-    max-width: 50%;
-  }
 
-  .icono_principal {
-    max-width: 25%;
-  }
   .contacto {
     background-color: #05a6e1;
     width: 280px;
@@ -2119,9 +2028,7 @@ footer {
   .description_specialities p {
     font-size: 16px;
   }
-  .icono_principal {
-    max-width: 25%;
-  }
+
 
   .contacto {
     background-color: #05a6e1;

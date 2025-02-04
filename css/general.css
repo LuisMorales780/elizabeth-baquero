@@ -1,0 +1,640 @@
+
+
+/*------------------------boton flotante redes------------------------*/
+
+#red-flotante-principal .contactos {
+  display: none;
+}
+
+#red-flotante-principal .contactos.aparecer {
+  display: block;
+}
+
+
+#red-flotante-principal .icono_principal img{
+    width: 50px;
+    height: 50px;
+}
+
+.icono_principal {
+    position: fixed;
+    bottom: 85px;
+    right: 20px;
+    z-index: 5;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .icono_principal:hover{
+    transform: scale(1.1);
+    
+  }
+/*------------------------boton flotante redes------------------------*/
+
+
+
+/*Botones Whats y back to top*/
+.boton-whats {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #14bd65;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: #bb2c65;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+.contacto-tel{
+    font-size: 21px;
+}
+
+
+
+
+#backToTop {
+    display: none; /* Inicialmente oculto */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 97;
+    border: none;
+    outline: none;
+    background-color: #2d2d2d;
+    color: white;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#backToTop:hover {
+    background-color: #243B93;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    z-index: 97;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    animation: pulse-a 2s infinite;
+}
+
+.whatsapp-button img {
+    width: 65px;
+    height: 65px;
+}
+
+/*Botones Whats y back to top*/
+
+
+
+/*------------------------boton flotante redes------------------------*/
+
+#redes-boton-flotante {
+    position: fixed;
+    bottom: 85px; 
+    right: 20px;
+    z-index: 999;
+  }
+  
+  #redes-boton-flotante .redes-boton-principal {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: solid white 26px;
+  }
+  
+  #redes-boton-flotante .redes-icono-principal {
+    width: 60px;
+    height: 60px;
+  }
+  
+  #redes-boton-flotante .redes-contactos-flotantes {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  #redes-boton-flotante .redes-icono {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  #redes-boton-flotante .redes-icono-img {
+    width: 70px;
+    height: 70px;
+  }
+  
+  #redes-boton-flotante .redes-icono:hover {
+    background-color: #007bff;
+  }
+  
+  #redes-boton-flotante .redes-contactos-flotantes.active{
+    display: flex;
+  }
+  
+  #redes-boton-flotante .redes-icono-principal:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+  }
+
+/*------------------------boton flotante redes------------------------*/
+
+
+/*-----------------------------Casos clinicios-----------------------------*/
+#casos-clinicos .margenes{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#casos-clinicos .fotos-casos-exito .item img{
+  max-width: 520px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+#casos-clinicos .texto-casos-exito h2{
+  font-size: 30px;
+  font-weight: 700;
+  color: #cbc71b;
+  background-color: #002c89;
+  text-align: center;
+  border-radius: 15px;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  #casos-clinicos .texto-casos-exito h2{
+    font-size: 20px;
+  }
+
+  #casos-clinicos .texto-casos-exito h2{
+    padding: 10px;
+  }
+  
+}
+
+#casos-clinicos .texto-casos-exito p{
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+
+#casos-clinicos .fotos-casos-exito{
+  padding-top: 30px;
+}
+
+
+#casos-clinicos .parrafo-casos-exito{
+  padding-top: 30px;
+}
+
+
+/*-----------------------------Casos clinicios-----------------------------*/
+
+@media screen and (max-width: 690px) {
+  /* Estilo general para el contenedor de la galería */
+  .contenedor-galeria-casos {
+    width: 100%;
+    overflow: hidden; /* Esconde cualquier contenido que se desborde */
+    position: relative;
+  }
+
+  /* Estilo para el contenedor de la galería */
+  .galeria-casos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Asegura que ocupe todo el ancho disponible */
+  }
+
+  /* Contenedor de las imágenes */
+  .fotos-casos-exito {
+    display: flex;
+    transition: transform 0.5s ease; /* Suaviza la transición entre imágenes */
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Estilo para cada imagen */
+  .fotos-casos-exito .item {
+    flex: 0 0 100%; /* Cada imagen ocupa el 100% del contenedor */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center; /* Centra las imágenes dentro de cada item */
+    align-items: center; /* Centra las imágenes verticalmente */
+  }
+
+  /* Estilo para la imagen */
+  .fotos-casos-exito .item img {
+    width: 100%; /* Las imágenes se ajustan al ancho del contenedor */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    display: block;
+  }
+
+  /* Estilo para los botones */
+  .prev-btn, .next-btn {
+    background-color: #243B93;
+    color: white;
+    border: none;
+    padding: 13px;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px; /* Coloca los botones en la parte inferior */
+    z-index: 10;
+    border-radius: 5px;
+  }
+
+
+  .prev-btn {
+    left: 30%; /* Botón anterior a la izquierda */
+  }
+
+  .next-btn {
+    right: 30%; /* Botón siguiente a la derecha */
+  }
+
+  /* Contenedor de los botones */
+  .botones-galeria {
+    padding-top: 75px;
+  }
+
+}
+
+@media (min-width: 691px){
+  /* Estilo general para el contenedor de la galería */
+.contenedor-galeria-casos {
+  width: 100%;
+  overflow: hidden; /* Esconde cualquier contenido que se desborde */
+  position: relative;
+}
+
+/* Estilo para el contenedor de la galería */
+.galeria-casos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Asegura que ocupe todo el ancho disponible */
+}
+
+/* Contenedor de las imágenes */
+.fotos-casos-exito {
+  display: flex;
+  transition: transform 0.5s ease; /* Suaviza la transición entre imágenes */
+  width: 100%;
+  height: 100%;
+}
+
+/* Estilo para cada imagen */
+.fotos-casos-exito .item {
+  flex: 0 0 100%; /* Cada imagen ocupa el 100% del contenedor */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center; /* Centra las imágenes dentro de cada item */
+  align-items: center; /* Centra las imágenes verticalmente */
+}
+
+/* Estilo para la imagen */
+.fotos-casos-exito .item img {
+  width: 100%; /* Las imágenes se ajustan al ancho del contenedor */
+  height: auto; /* Mantiene la proporción original de la imagen */
+  display: block;
+}
+
+/* Estilo para los botones */
+.prev-btn, .next-btn {
+  background-color: #243B93;
+  color: white;
+  border: none;
+  padding: 20px;
+  font-size: 35px;
+  font-weight: 700;
+  cursor: pointer;
+  position: absolute;
+  top: 50%; /* Coloca los botones en el centro vertical */
+  transform: translateY(-50%); /* Ajusta la posición para que estén centrados verticalmente */
+  z-index: 10;
+  border-radius: 5px;
+}
+
+/* Posiciona el botón anterior a la izquierda */
+.prev-btn {
+  left: 0; 
+}
+
+/* Posiciona el botón siguiente a la derecha */
+.next-btn {
+  right: 0;
+}
+
+/* Contenedor de los botones */
+.botones-galeria {
+  padding-top: 67px;
+}
+
+}
+
+
+@media screen and (max-width: 576px) {
+  #casos-clinicos .margenes{
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+ 
+}
+@media (min-width:577px) and (max-width: 768px) {
+  #casos-clinicos .margenes{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+}
+
+/*-----------------------------servicios-----------------------------*/
+#servicios {
+  background-color: gainsboro;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/*-----------------------------servicios-----------------------------*/
+
+
+
+/*-----------------------------Especialidades-----------------------------*/
+
+#especialidades {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*-----------------------------Especialidades-----------------------------*/
+
+/*-----------------------------Formas de pago-----------------------------*/
+#forma-pago .titular{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#forma-pago .titular h2{
+  background-color: #002c89;
+  color: #cbc71b;
+  padding: 15px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+  font-size: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  #forma-pago .titular h2{
+    font-size: 25px;
+    padding: 10px;
+  }
+
+}
+
+#forma-pago .margenes{
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 100px;
+}
+/*-----------------------------Formas de pago-----------------------------*/
+#copyright{
+  background-color: #141414;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  width: 100vw;
+}
+
+#copyright a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/*-----------------------------anuncio-header-----------------------------*/
+
+#anuncio-header{
+  padding-top: 90px;
+  padding-bottom: 20px;
+  background-color: #315da6;
+}
+
+#anuncio-header a{
+  color: #feee00;
+  text-decoration: none;
+}
+
+
+#anuncio-header .contenedor-aununcio-header{
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase ;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 840px) {
+  #anuncio-header .contenedor-aununcio-header{
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #anuncio-header .contenedor-aununcio-header .item{
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  #anuncio-header{
+    padding-top: 80px;
+    padding-bottom: 10px;
+  }
+
+  #anuncio-header a{
+    font-size: 13px;
+  }
+  
+}
+
+@media screen and (min-width: 390px) {
+
+  #anuncio-header a{
+    font-size: 16px;
+  }
+  
+  
+  #anuncio-header .contenedor-aununcio-header .item{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+
+/*-----------------------------anuncio-header-----------------------------*/
+
+/* Media query para pantallas con un ancho mínimo de 990px y máximo de 1110px */
+@media (min-width: 990px) and (max-width: 1110px) {
+  #casos-clinicos .contenedor-galeria-casos .prev-btn {
+    left: 60px; /* Aumenta 10px más */
+  }
+
+  #casos-clinicos .contenedor-galeria-casos .next-btn {
+    right: 60px; /* Aumenta 10px más */
+  }
+}
+
+/* Media query para pantallas con un ancho mínimo de 1111px y máximo de 1230px */
+@media (min-width: 1111px) and (max-width: 1230px) {
+  #casos-clinicos .contenedor-galeria-casos .prev-btn {
+    left: 120px; /* Aumenta 10px más */
+  }
+
+  #casos-clinicos .contenedor-galeria-casos .next-btn {
+    right: 120px; /* Aumenta 10px más */
+  }
+}
+
+/* Media query para pantallas con un ancho mínimo de 1231px y máximo de 1350px */
+@media (min-width: 1231px) and (max-width: 1350px) {
+  #casos-clinicos .contenedor-galeria-casos .prev-btn {
+    left: 170px; /* Aumenta 10px más */
+  }
+
+  #casos-clinicos .contenedor-galeria-casos .next-btn {
+    right: 170px; /* Aumenta 10px más */
+  }
+}
+
+/* Media query para pantallas con un ancho mínimo de 1351px y máximo de 1470px */
+@media (min-width: 1351px) and (max-width: 1470px) {
+  #casos-clinicos .contenedor-galeria-casos .prev-btn {
+    left: 220px; /* Aumenta 10px más */
+  }
+
+  #casos-clinicos .contenedor-galeria-casos .next-btn {
+    right: 220px; /* Aumenta 10px más */
+  }
+}
+
+/* Media query para pantallas con un ancho mínimo de 1471px y máximo de 1590px */
+@media (min-width: 1471px) and (max-width: 1590px) {
+  #casos-clinicos .contenedor-galeria-casos .prev-btn {
+    left: 260px; /* Aumenta 10px más */
+  }
+
+  #casos-clinicos .contenedor-galeria-casos .next-btn {
+    right: 260px; /* Aumenta 10px más */
+  }
+}
+
+/* Media query para pantallas con un ancho mínimo de 1591px y máximo de 1710px */
+@media (min-width: 1591px) and (max-width: 1710px) {
+  #casos-clinicos .contenedor-galeria-casos .prev-btn {
+    left: 310px; /* Aumenta 10px más */
+  }
+
+  #casos-clinicos .contenedor-galeria-casos .next-btn {
+    right: 310px; /* Aumenta 10px más */
+  }
+}
+
+/* Media query para pantallas con un ancho mínimo de 1711px y máximo de 1830px */
+@media (min-width: 1711px) and (max-width: 1830px) {
+  #casos-clinicos .contenedor-galeria-casos .prev-btn {
+    left: 370px; /* Aumenta 10px más */
+  }
+
+  #casos-clinicos .contenedor-galeria-casos .next-btn {
+    right: 370px; /* Aumenta 10px más */
+  }
+}
+
+/* Media query para pantallas con un ancho mínimo de 1831px y máximo de 1950px */
+@media (min-width: 1831px) and (max-width: 1950px) {
+  #casos-clinicos .contenedor-galeria-casos .prev-btn {
+    left: 400px; /* Aumenta 10px más */
+  }
+
+  #casos-clinicos .contenedor-galeria-casos .next-btn {
+    right: 400px; /* Aumenta 10px más */
+  }
+}
+
+/* Media query para pantallas con un ancho mínimo de 1951px y máximo de 2070px */
+@media (min-width: 1951px) and (max-width: 2070px) {
+  #casos-clinicos .contenedor-galeria-casos .prev-btn {
+    left: 140px; /* Aumenta 10px más */
+  }
+
+  #casos-clinicos .contenedor-galeria-casos .next-btn {
+    right: 140px; /* Aumenta 10px más */
+  }
+}
+
+/* Media query para pantallas con un ancho mínimo de 2071px y máximo de 2190px */
+@media (min-width: 2071px) and (max-width: 2190px) {
+  #casos-clinicos .contenedor-galeria-casos .prev-btn {
+    left: 150px; /* Aumenta 10px más */
+  }
+
+  #casos-clinicos .contenedor-galeria-casos .next-btn {
+    right: 150px; /* Aumenta 10px más */
+  }
+}
+
+/* Media query para pantallas con un ancho mínimo de 2191px */
+@media (min-width: 2191px) {
+  #casos-clinicos .contenedor-galeria-casos .prev-btn {
+    left: 160px; /* Aumenta 10px más */
+  }
+
+  #casos-clinicos .contenedor-galeria-casos .next-btn {
+    right: 160px; /* Aumenta 10px más */
+  }
+}
+
